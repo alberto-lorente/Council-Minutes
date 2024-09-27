@@ -1,0 +1,25 @@
+Data Issue Request: Student Leadership and Engagement visibility of vaccinated (Luke Ifland)
+Request for selected staff to have access to view vaccination status as required per city
+regulations for events. The staff already have access and am seeking approval for easier access
+to confirm status on the spot.
+Comments:
+Donna Davis does not consider this information to be HIPPA type data and has no objections.
+Is the data coming directly from med proctor? Architecture, once information is confirmed by
+med proctor, integration to banner table, vaccinated, exempt, blank, then tied to one card.
+There is no medical record information, simply a “y” for yes or “ex” or blank, have neither.
+MP – Banner – Salesforce
+Only Natalie has admin role to med proctor database.
+Motion: Approved Vote: unanimous. Only on a required and need to know basis.
+Good of the order:
+Bromfield shared the Law School faculty may be interested in doing something with the gender
+identity pronoun data.
+Darcy feels there is a missing piece we promised the students. How are we using this data. The
+data is currently used in class roster and the policy addresses this use.
+Might be a good start to have Bromfield draft an email to deans and having direction from one
+source.
+If faculty wants to do further research, it should be handled by internal institutional data, not
+by CIPE.
+May consider including the data use and sharing subcommittee. Bromfield is involved when
+students submit research requests.
+Action: Bromfield to draft email to associate deans and deans
+Adjourned: 4:03 pm

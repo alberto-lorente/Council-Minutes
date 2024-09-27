@@ -1,0 +1,3 @@
+- RAG stuff - LLM - named entity extraction with RAG
+- clustering to separate projects/docs
+- Optical lalal recognition - turn images to text

@@ -1,0 +1,32 @@
+Data Governance
+October 14, 2021
+Action Minutes
+Members present: Robert Bromfield, Dom Daher, Desmond Dair, Stephanie Darcy, Eric
+Freeman, Jeff Hamrick, Maggie Karaman, David Kirmse, Julie Kober, Janice Lee, Stacy Lewis,
+Dan McPherson, Deborah Panter, Nick Recchia, Chantel Smith, Joe Vasques, Vinson Villarma,
+Kevin Wilson
+Recorder: Linda Wong
+Approve minutes from September 9, 2021
+Action: Approved, Vote: unanimous
+Quick status reports from some subcommittees
+• Data Storage, Retention, and Destruction Subcommittee: Internal review by lawyer with
+upcoming meeting before engaging outside counsel. This committee will be able to review as
+well.
+• Data Warehouse Governance Subcommittee: Pending new group led by Recchia. Hamrick
+added Provost Chinyere is interested in this topic and asked to update and resubmit the Budget
+Assist request.
+• Gender Identity and Personal Pronouns Task Force: Email will go out to students in a week or
+two. Pronouns available in Canvas, allowing custom class list. Policy drafted, user test.
+• Data Use Agreements Subcommittee: The data use agreement is up and running on Service
+Now. A draft policy for data sharing (USF shares its data) is in progress.
+• Data transmission by USF to third party vendors: example SOM request. A draft process has
+been started to help move along these requests. Clarification on what approvals are required
+when we approve to share with vendor or each time we share information. Who owns the data
+when it is received?
+Independent contractor, we may approve Project A, but not Project B. Always looking at
+components, security officers review and goes to next level.
+Action: form subgroup to refine process. The subgroup will meet with appropriate data
+steward(s) and requestor, review and sign-off on requests.
+New business/ items from the floor / future agenda items:
+Fulton Flats follow up
+Meeting adjourned: 4:55 pm

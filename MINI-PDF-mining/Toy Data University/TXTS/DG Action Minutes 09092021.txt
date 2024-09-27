@@ -1,0 +1,20 @@
+Bromfield agreed it is more a use issue and not data governance and perhaps a question to legal counsel
+whether it falls under data retention.
+Smith shared it may also fall under risk assessment and not data governance.
+Panter added possible law suits can come up.
+Wilson shared the graduation office has had to re-record ceremonies if a student’s honors did not get
+announced. Some have threatened to sue.
+Kirmse mention Shawn Calhoun is looking for ITS to approve technology that will automatically post
+photographs to Gleeson Instagram account.
+Hamrick will speak to Ryder to clarify the issue.
+Data audit policies -inbound / outbound information. Don’t do any formal data audit of these data
+between USF and third-party vendors. Different controls in place to prevent data issues, some data
+assessment, but nothing formal. At the request of Donna Davis, discuss and explore if this is needed or
+not?
+Hamrick stated any data worth collecting is worth having certain level of quality, otherwise there would
+be no use for collecting the information. If a system has bad data, it can be a liability to the institution.
+Zane added there are some validation of data integration that feeds into finance.
+What system does anyone suspect has poor data? Siloed systems, not single sign-on.
+Kirmse and Hamrick will follow up on a policy for annual audits. ITS has a list of all systems.
+Good of the order
+Meeting adjourned: 4:55 p.m.

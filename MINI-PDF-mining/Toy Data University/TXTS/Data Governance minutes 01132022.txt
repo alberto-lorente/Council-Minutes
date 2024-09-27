@@ -1,0 +1,31 @@
+• Development perspective – student records become alumni records, options now are
+M/F/Other. Do not see a place for pronouns, talked about building in enhancements.
+Can certainly implement changes in alumni data base as well, but will need to double
+check if there is a field for legal sex.
+Next steps:
+• Darcy offered to work on a draft with Bromfield.
+• Bromfield to come back with feedback.
+Data use/sharing
+Shirley McGuire, Senior Vice Provost, will join the subcommittee this spring. The group is
+continuing to refine the data sharing process.
+Data Storage, Retention, and Destruction
+Recchia has been in communications with Peter Mayer in General Counsel and to come up with
+a framework piloting individual system, e.g., gnosis/slate. We may consider questions such as:
+• Do we have a legitimate reason to keep them?
+• Keep them in its full form?
+Data warehouse
+clear we need to cultivate and create golden records of our customers.
+Where do we store these golden records?
+In Banner, there is an audit of name change
+Start to build out appropriate profiles
+Subcommittee still in planning phases aside from exploration with Chantel. Seeking new
+partner competent in informatica, golden records, snowflake.
+Discussion of co-chair model
+Henson shared Data Governance used to have a co-chair and would like to bring this back.
+Action: Approve having a co-chair
+Motion: Kirmse/Bromfield Vote: unanimous
+Data Governance Bylaws
+Henson recommended having a subcommittee to begin drafting the bylaws. The current
+charter on the website is a good start. The bylaws will be shared before it is signed off and
+possible approval from administration.
+Meeting adjourned: 4:45 pm

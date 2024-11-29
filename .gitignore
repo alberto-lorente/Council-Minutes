@@ -14,3 +14,4 @@ processed_text/*
 Alberto Research/Automatic Data Annotation/LLM Embedding Clustering/Data/data_acte_arrete_annotated.csv
 Alberto Research/Automatic Data Annotation/LLM Embedding Clustering/Data/data_acte_delib_annotated.csv
 Alberto Research/Automatic Data Annotation/LLM Embedding Clustering/Data/data_acte_raa_annotated.csv
+*.csv

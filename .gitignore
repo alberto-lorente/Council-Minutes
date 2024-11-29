@@ -11,3 +11,6 @@ Alberto Research/Automatic Data Annotation/data_experiments_annotated.csv
 Alberto Research/Automatic Data Annotation/tf_matrix_comm_sample.csv
 processed_text/*
 .env
+Alberto Research/Automatic Data Annotation/LLM Embedding Clustering/Data/data_acte_arrete_annotated.csv
+Alberto Research/Automatic Data Annotation/LLM Embedding Clustering/Data/data_acte_delib_annotated.csv
+Alberto Research/Automatic Data Annotation/LLM Embedding Clustering/Data/data_acte_raa_annotated.csv

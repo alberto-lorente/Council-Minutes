@@ -1,0 +1,18 @@
+Log to avoid data leakage. The following are the indexes we used for specific purposes.
+
+Data used for the DEVELOPMENT OF THE PREPROCESSING PIPELINE:
+
+1765
+11530
+5759
+4099 (not a project)
+
+Data annotated for the FINAL EVALUATION of the system:
+ 
+6374
+8261
+9502
+9316
+8531
+7744
+7625

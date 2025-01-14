@@ -7,7 +7,7 @@ import time
 
 
 
-def csv_add_markdown_col(): 
+def csv_add_markdown_col(data, llama_parse_key): 
     
     nest_asyncio.apply()
     parser = LlamaParse(

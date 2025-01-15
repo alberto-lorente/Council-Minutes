@@ -1,53 +1,41 @@
 from llama_parse import LlamaParse
-import pandas as pd
-import urllib.request
-import uuid
 import nest_asyncio
-import time
+import os
 
-
-
-def csv_add_markdown_col(data, llama_parse_key): 
+def dir_of_downloaded_pdf_to_markdown(data_folder, llama_parse_key): 
+    
+    """
+    Input a folder with downloaded pdfs and an Llama Parse API Key and:
+    1. Turn the PDF to markdown.
+    2. Save the markdown version in a new .md file with the same name as the PDF.
+    3. Returns a list of the markdown versions of the PDFs.
+    """
     
     nest_asyncio.apply()
+    
     parser = LlamaParse(
         # can also be set in your env as LLAMA_CLOUD_API_KEY
-        api_key=llama_parse_key, # Put your own API key
-        result_type="markdown",  # "markdown" and "text" are available
-        num_workers=4,  # if multiple files passed, split in `num_workers` API calls
+        api_key=llama_parse_key,
+        result_type="markdown", 
+        num_workers=4,  # could be passed to a list of pdf paths
         verbose=True,
-        language="fr",  # Optionally you can define a language, default=en
+        language="fr",  
         disable_ocr=False # This is the default option
     )
-
-    print(len(data.index.tolist()))
-    md_column = []
-    starting_time = time.time()
-    pdfs = []
-    ids = []
-    for index, row in data.iterrows():
-        doc_id = row["doc_id"]
-        cache_url = row["cache"]
-        uuid_ = uuid.uuid1()
-        pdf_path = "pdfs/" + str(uuid_)+".pdf"
-        print(doc_id)
-        print(cache_url)
+    
+    list_pdfs_files = os.listdir(data_folder)
+    
+    markdowns = []
+    
+    for pdf_file in list_pdfs_files:
         
-        try:
-            print("error here")
-            urllib.request.urlretrieve(cache_url, pdf_path)
-            document = parser.load_data(pdf_path)
-            md = ""
-            for line in document:
-                md += line.text
-                md += "\n\n"
-            md_column.append (md)
+        pdf_file_path = os.path.join(data_folder, pdf_file)
+        markdown = parser.load_data(pdf_file_path)
+        
+        with open(f'{pdf_file_path.strip(".pdf")}_markdown.md', 'w') as f:
+            for doc in markdown:
+                f.write(doc.text + '\n')
+                
+            markdowns.append(f)
             
-        except :
-            print("Couldn't download")
-            md_column.append ("Download failed")
-            
-    data["markdown"] = md_column
-    print(time.time() - starting_time)
-
-    return data
+    return markdowns

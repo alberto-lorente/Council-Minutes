@@ -41,7 +41,7 @@ for index, row in csv.iterrows():
         for line in document:
             md += line.text
             md += "\n\n"
-        md_column.append (md)
+        md_column.append(md)
     except :
         print("Couldn't download")
         md_column.append ("Download failed")

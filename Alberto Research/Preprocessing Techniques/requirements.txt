@@ -1,6 +1,0 @@
-huggingface-hub
-pydantic
-pydantic_core
-tokenizers
-transformers
-psycopg2

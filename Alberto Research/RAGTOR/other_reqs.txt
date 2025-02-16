@@ -1,0 +1,3 @@
+fr_core_news_sm
+torch with cuda
+poppler if you are on windows

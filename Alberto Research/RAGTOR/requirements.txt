@@ -30,6 +30,8 @@ frontend
 PyMuPDF
 PyPDF2
 sentence-transformers
-faiss-gpu
+faiss-cpu
 langchain-community
 langchain-core
+langchain-text-splitters
+uuid4

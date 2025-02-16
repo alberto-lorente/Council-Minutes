@@ -1,6 +1,6 @@
 import torch
 from transformers import RobertaTokenizerFast, EncoderDecoderModel, T5Tokenizer, T5ForConditionalGeneration
-
+from groq import Groq
 
 def generate_hf_summary(text, tokenizer, model, device):
     inputs = tokenizer([text], padding="max_length", return_tensors="pt")

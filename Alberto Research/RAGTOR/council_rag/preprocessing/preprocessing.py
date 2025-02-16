@@ -53,7 +53,7 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
         
     return paragraphs
 
-def compute_norm_embeddings(tokenizer, model, sentence):
+def compute_norm_embeddings(tokenizer, model, sentence, device="cuda"):
 
     tokenized_sentences = tokenizer(sentence, return_tensors="pt", padding=True, truncation=True).to(device)
 

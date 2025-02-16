@@ -1,0 +1,35 @@
+Comments about the summary produced by deepseek-r1-distill-llama-70b, page 13
+
+	The summary is enumerated and structured within the right order, the length is not too long and each point did quite coverd precisely the key informations including numbers if there exists some, in the corresponding paragraphe. However, there’s something has been modified by the summary, for example in the 5th part of the summary, it adds  “Project clés” which I don’t find existing in the original text, to conclure the “Les nouveautés de l’année 2020”. And also, evenements in this list is not 100% represented as it is, the summary seems to remove some essential substantivations which indicate the state of the projets. 
+
+Comments about the summary produced by deepseek-r1-distill-qwen-32b, page 13
+
+	The summary seems redundant and containing too much useless informations, it comments on the document’s highlights and so on, which is not really needed and useful. Even the conclusion doesn’t seem cohenrent to me, it didn’t conclure any of the “rapports d’activités” listed in the original text. 
+
+Comments about the summary produced by gemma2-9b-it, page 13 
+
+	The summary is enumerated and structured within the right order, the length is not too long with a focus on the principle poins elaborated in the texts, but didn’t have matching summary length for the second half of the page. And it didn’t mention on the top of documents there’s one point related to the budget. It is overall almost cohenrent, but a bit unbalanced. 
+
+Comments about the summary produced by llama-3.3-70b-versatile, page 13
+
+	The summary’s length is not too long, it’s structured and enumerated with good order, it did not miss the first sentence correspnding to the budget in the conclusion, but it seems to miss some details on numbers and there’s a miss in the 2nd half of the conclusion as well, the summary did cover all the “ Rapport d’activités 2020”, lots of informations are missing. 
+
+Overall, I think deepseek-r1-distill-llama-70b has the best performance on the page 13, then it’s gemma2-9b-it, has the second best performance. But page 13 doesn't really include important infos regarding to a geo-themal project. 
+____________________________________________________________________________________
+
+Comments about the summary produced by deepseek-r1-distill-llama-70b, page_29
+
+	The summary’s length is ok, but llm is not in track of every line  appeared in the table of “Recettes” and “Depenses”, and certain numbers in the textual informations are not correct. It skips a few lines in details of different depenses again, but only indicated the “Total de recettes” and “Total de dépenses”. 
+
+Comments about the summary produced by deepseek-r1-distill-qwen-32, page_29
+
+	The summary did not mention the BP 2021, DM précédentes, or DM3, which are the content from the columns of the table, plus, it didn’t have any details of the precises recette nor depenses, neither for the textual informations in between tables 
+
+Comments about the summary produced by gemma2-9b-it, page_29
+
+	The summary seems very detailed and precise to me, we don’t observe any informations lost, the length is good. And well-structured.
+
+Comments about the summary produced by llama-3.3-70b-versatile, page 29
+	The summary is very coherent in terms of explanation of the tables, every single line was well presented, starting with the total then break down to individual categories. But the column informations are missing, so does the texual informations between the tables. 
+
+Overall, gemma2-9b-it performs the best among the 4 models, especially on summary of a mixture of tables and text. Page 29 include infos regarding to the budget. 

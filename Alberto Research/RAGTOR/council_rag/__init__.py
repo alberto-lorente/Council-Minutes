@@ -1,6 +1,8 @@
 import torch
 from transformers import AutoTokenizer, AutoModel
 import spacy
+from huggingface_hub import HfFolder, whoami
+
 import numpy as np
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score
@@ -19,6 +21,8 @@ def preprocess_markdown_text(markdown,
         
     with open(hf_token_path, "r") as f:
         hf_token = f.read()
+    HfFolder.save_token(hf_token)
+    print(whoami()["name"])
         
     # Split the markdown into paragraphs, markdown is a string
     paragraphs = split_markdown_to_paras(markdown, spacy_model, n_sents_per_para)

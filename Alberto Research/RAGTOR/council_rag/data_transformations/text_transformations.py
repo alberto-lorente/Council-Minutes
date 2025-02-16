@@ -27,7 +27,7 @@ def generate_t5_summary(text, device):
 def generate_groq_summary(base_summary_prompt, 
                         text_to_summarize, 
                         groq_key, 
-                        model="llama-3.2-70b-versatile"):
+                        model="gemma2-9b-it"):
         
     client = Groq(api_key=groq_key)
     summary_prompt = base_summary_prompt.format(text_to_summarize)

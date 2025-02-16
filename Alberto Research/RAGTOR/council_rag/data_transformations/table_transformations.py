@@ -2,10 +2,27 @@ from img2table.document import PDF
 import base64
 from groq import Groq
 from pdf2image import convert_from_path
+import os
+import torch
+from huggingface_hub import HfFolder, whoami
 
-    
+with open("HF_TOKEN.txt", "r") as f:
+    hf_token = f.read()
+
+with open("GROQ_KEY.txt", "r") as f:
+    groq_token = f.read()
+
+HfFolder.save_token(hf_token)
+# print(whoami()["name"])
+
+device = "cpu"
+if torch.cuda.is_available():
+    # print("Cuda available")
+    device = torch.device('cuda')
+
+
 # extract tables from the list of pages of a pdf file
-def extract_tables_from_page(pdf_path, list_pages):
+def extract_tables_from_page(pdf_path, list_pages=None):
     
     pdf = PDF(pdf_path,
                 pages= list_pages,
@@ -16,14 +33,23 @@ def extract_tables_from_page(pdf_path, list_pages):
     return extracted_tables
 
 # convert pdf to images # expects the poppler path to be at the same level as the script
-def convert_pdf_to_image(pdf_path, output_dir=r"/output_pdf_to_img/", poppler_path=r"poppler-24.08.0\Library\bin"):
+def convert_pdf_to_image(pdf_path, output_dir="/output_pdf_to_img/", poppler_path=r"poppler-24.08.0\Library\bin"):
     
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    images_paths = []
     images = convert_from_path(pdf_path, poppler_path=poppler_path) 
     for i in range(len(images)):
         # Save pages as images in the pdf
-        images[i].save(output_dir + pdf_path + '_page'+ str(i) +'.jpg', 'JPEG')
+        general_path = output_dir + pdf_path 
+        general_path = general_path.rstrip(".pdf")
+        # print(general_path)
+        image_path = general_path + '_page'+ str(i) +'.jpg'
+        images[i].save(image_path, 'JPEG')
         
-    return images
+        images_paths.append(image_path)
+    
+    return images_paths
 
 # encode image to base64 to be digestible by groq
 def encode_image(image_path):
@@ -55,3 +81,26 @@ def augment_multimodal_context(image_path,
                                                         )
     
     return chat_completion.choices[0].message.content
+
+# format the table info into a dictionary
+def format_table_info(list_pages_with_tables, list_table_htmls, table_descriptions):
+    
+    format_string = """{}
+Tableau au format html:
+{}"""
+
+    list_processed_tables = []
+    i = 0
+    while i < len(list_table_htmls):
+        
+        html_table = list_table_htmls[i]
+        page_num = list_pages_with_tables[i]
+        descr_table = table_descriptions
+        table_string = format_string.format(descr_table, html_table)
+        table_dict = {"page": page_num,
+                    "table_context": descr_table,
+                    "table_html": table_string,
+                    "table_augmented_context": table_string}
+        list_processed_tables.append(table_dict)
+        i += 1
+    return list_processed_tables

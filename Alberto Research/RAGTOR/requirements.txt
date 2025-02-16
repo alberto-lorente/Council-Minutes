@@ -24,3 +24,8 @@ scipy
 transformers
 poppler-utils
 spacy
+fitz
+llama-parse
+frontend
+PyMuPDF
+PyPDF2

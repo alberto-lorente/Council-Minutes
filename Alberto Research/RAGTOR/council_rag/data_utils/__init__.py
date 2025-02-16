@@ -42,21 +42,21 @@ def download_pdf (url, pdf_path):
 		print("Could not download", url)
 		return False
 
-def pf2mdpagebypage(input_pdf, output_folder):
+def pf2mdpagebypage(input_pdf, output_folder, extract_text_function=pdf2md):
 	doc = fitz.open(input_pdf)
 	pages = []
 	for i, page in enumerate(doc):
 		starting_time = time.time()
 		print(f"Processing page {i+1} of {len(doc)}")
 		new_pdf = fitz.open()
-		new_pdf.insert_pdf(doc, from_page=i, to_page=i)
+		# new_pdf.insert_pdf(doc, from_page=i, to_page=i)
 		
 		output_filename = f"{output_folder}/page_{i+1}.pdf"
-		print(time.time() - starting_time)
-		new_pdf.save(output_filename)
+		# print(time.time() - starting_time)
+		new_pdf.save(output_filename) 
 		new_pdf.close()
-		print(time.time() - starting_time)
-		pages.append(pdf2md(output_filename))    
+		# print(time.time() - starting_time)
+		pages.append(extract_text_function(output_filename)) # this is the part of the algo that takes very long with llama-parse  
 	return pages
 
 # took it out because it was not working

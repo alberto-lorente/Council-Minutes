@@ -51,10 +51,10 @@ def process_row (row, pagebypage=False):
 	uuid_ = uuid.uuid1 ()
 	pdf_path = "pdfs/" + str(uuid_)+".pdf"
 	if download_pdf(cache_url, pdf_path):
-        if pagebypage:
-    		return pdf2mdpagebypage(pdf_path)
-        else:
-            return pdf2md (pdf_path)
+		if pagebypage:
+    			return pdf2mdpagebypage(pdf_path)
+        	else:
+            		return pdf2md (pdf_path)
         
 	else:
 		print("Could not process", doc_id)

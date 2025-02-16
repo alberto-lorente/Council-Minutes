@@ -86,7 +86,9 @@ def augment_multimodal_context(image_path,
 def format_table_info(list_pages_with_tables, list_table_htmls, table_descriptions):
     
     format_string = """{}
+    
 Tableau au format html:
+
 {}"""
 
     list_processed_tables = []
@@ -95,7 +97,7 @@ Tableau au format html:
         
         html_table = list_table_htmls[i]
         page_num = list_pages_with_tables[i]
-        descr_table = table_descriptions
+        descr_table = table_descriptions[i]
         table_string = format_string.format(descr_table, html_table)
         table_dict = {"page": page_num,
                     "table_context": descr_table,

@@ -29,3 +29,7 @@ llama-parse
 frontend
 PyMuPDF
 PyPDF2
+sentence-transformers
+faiss-gpu
+langchain-community
+langchain-core

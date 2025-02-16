@@ -47,7 +47,7 @@ def pf2mdpagebypage(input_pdf, output_folder, extract_text_function=pdf2md):
 	pages = []
 	for i, page in enumerate(doc):
 		starting_time = time.time()
-		print(f"Processing page {i+1} of {len(doc)}")
+		# print(f"Processing page {i+1} of {len(doc)}")
 		new_pdf = fitz.open()
 		# new_pdf.insert_pdf(doc, from_page=i, to_page=i)
 		

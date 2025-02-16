@@ -1,7 +1,7 @@
 import torch
 from huggingface_hub import HfFolder, whoami
-from table_transformations import format_table_info, extract_tables_from_page, convert_pdf_to_image, augment_multimodal_context
-from text_transformations import generate_groq_summary
+from .table_transformations import format_table_info, extract_tables_from_page, convert_pdf_to_image, augment_multimodal_context
+from .text_transformations import generate_groq_summary
 import time
 
 
@@ -40,10 +40,16 @@ def process_tables(pdf_path, base_prompt, groq_token):
     
     return processed_tables
 
-def summarize_clusters(cluster_paras, summary_prompt, groq_token, model="gemma2-9b-it", token_limit=14000, sleep_time=60):
-
+def summarize_clusters(cluster_dict, summary_prompt, groq_token, model="gemma2-9b-it", token_limit=14000, sleep_time=60):
+    
+    text_clusters_to_summarize = []
+    for cluster in cluster_dict.values():
+        cluster_para_text = cluster["union_paras"]
+        text_clusters_to_summarize.append(cluster_para_text)
+    
+    summaries = []
     token_count = 0
-    for cluster_para in cluster_paras:
+    for cluster_para in text_clusters_to_summarize:
         # print(len(cluster_para))
         naive_length_check = len(cluster_para.split(" ")) # the token calcs in groq are very close to this number
         token_count += naive_length_check
@@ -52,7 +58,12 @@ def summarize_clusters(cluster_paras, summary_prompt, groq_token, model="gemma2-
             time.sleep(sleep_time)
             token_count = 0
         cluster_summary = generate_groq_summary(summary_prompt, cluster_para, groq_token, model)
-        
-        cluster_para["cluster_summary"] = cluster_summary
-        
-    return cluster_paras
+        summaries.append(cluster_summary)
+    
+    list_cluster_keys = list(cluster_dict.keys())
+    
+    for cluster_key in list_cluster_keys:
+        key_index = list_cluster_keys.index(cluster_key)
+        cluster_dict[cluster_key]["cluster_summary"] = summaries[key_index]    
+            
+    return cluster_dict

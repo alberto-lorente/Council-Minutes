@@ -1,20 +1,20 @@
 import torch
 from transformers import AutoTokenizer, AutoModel
-import spacy
 import numpy as np
-from sklearn.mixture import GaussianMixture
-from sklearn.metrics import silhouette_score
 from .preprocessing import compute_paragraph_embeddings, split_markdown_to_paras, get_optimal_n_clusters, fill_clusters_dict
+
+device = "cpu"
+if torch.cuda.is_available():
+    # print("Cuda available")
+    device = torch.device('cuda')
+
 
 def preprocess_markdown_text(markdown,
                             model_id ="HIT-TMG/KaLM-embedding-multilingual-mini-v1", 
                             spacy_model="fr_core_news_sm", 
-                            n_sents_per_para=10):
+                            n_sents_per_para=10, 
+                            device=device):
 
-    device = "cpu"
-    if torch.cuda.is_available():
-        print("Cuda available")
-        device = torch.device('cuda')
         
     # Split the markdown into paragraphs, markdown is a string
     paragraphs = split_markdown_to_paras(markdown, spacy_model, n_sents_per_para)
@@ -38,10 +38,10 @@ def preprocess_markdown_text(markdown,
 
 
     # Compute the embeddings for each cluster
-    clusters_ids, paragraphs = fill_clusters_dict(paragraphs, 
+    clusters, paragraphs = fill_clusters_dict(paragraphs, 
                                                 clusters_ids, 
                                                 final_clusters, 
                                                 recompute_embeddings=False, 
                                                 tokenizer=None, 
                                                 model=None)
-    return paragraphs, clusters_ids
+    return paragraphs, clusters

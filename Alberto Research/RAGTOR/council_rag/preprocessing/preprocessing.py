@@ -83,9 +83,9 @@ def cluster_n(cluster_model, n_clusters, embeddings, scoring_function):
     clusters = cluster_model.fit_predict(embeddings)
     sil_sc = scoring_function(embeddings, clusters)
 
-    print("Number of clusters: ", n_clusters)
-    print("Score: ", sil_sc)
-    print()
+    # print("Number of clusters: ", n_clusters)
+    # print("Score: ", sil_sc)
+    # print()
 
     return clusters, sil_sc
 
@@ -106,8 +106,8 @@ def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9):
     # Getting the optimal number of clusters
     max = np.argmax(silhouette_scores)
     optimal_n = range_clusters[max]
-    print("Index", max)
-    print("Optimal Number of Clusters", optimal_n)
+    # print("Index", max)
+    # print("Optimal Number of Clusters", optimal_n)
 
     # Getting the labels for the optimal number of clusters
     final_clusters = clusters_labels[max]

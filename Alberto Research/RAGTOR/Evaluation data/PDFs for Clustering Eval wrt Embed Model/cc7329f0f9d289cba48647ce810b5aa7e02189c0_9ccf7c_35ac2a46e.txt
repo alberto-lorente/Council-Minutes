@@ -1,0 +1,490 @@
+# AVRIL - MAI 2023
+
+# Un magazine édité par le
+
+# Lettre d’information du Syndicat départemental des énergies de la Creuse
+
+# Enfouissement
+
+# DOSSIER
+
+# Basse Tension
+
+De la demande aux travaux… Suivez pas à pas ce long parcours qui embellit notre environnement !
+
+# 5 étapes majeures
+
+# Financements
+
+# Entreprises mandatées
+
+# L’ACTU
+
+# Spécial Marchés électricité et gaz
+
+# IRVE
+
+Le nouveau parc des bornes de recharge est en fonctionnement !
+
+# RENOV23
+
+Services, calendrier et conseils utiles
+
+# LE SDEC, C’EST VOUS !
+
+Ajain et Moutier-Malcard en témoignages
+
+# Edito
+
+Une aide pour reprogrammer vos horloges EP
+
+Actuellement, la sobriété énergétique et les économies financières qui en résultent, deviennent les préoccupations principales des communes. Le 1er poste permettant la mise en œuvre de ces résolutions concerne l’éclairage public. Ainsi, nombreux sont les élus à solliciter le SDEC pour trouver des solutions réduisant les dépenses énergétiques.
+
+La sécurisation du réseau électrique creusois a été et sera toujours une priorité pour le SDEC. Elle passe majoritairement par l’enfouissement des câbles, opération souvent délicate qui réunit de nombreux acteurs et nécessite une organisation sans faille. Le dossier spécial de ce magazine rend hommage à celles et ceux qui y travaillent et dont la finalité est, ironie du sort, invisible !
+
+Détenant toujours la compétence en matière d’éclairage public, les communes étaient invitées à contacter l’entreprise responsable de leur maintenance, la reprogrammation faisant partie de la gestion courante des installations EP. Or, le SDEC dispose des compétences techniques pour réaliser cette opération. Il est donc proposé aux communes de réaliser gratuitement ce service de reprogrammation.
+
+Boitier de programmation
+BH Technologies
+
+30 Millions. C’est l’investissement du SDEC dans des enfouissements de réseaux sur ces 10 dernières années. Un des freins les plus souvent relevés sur ces opérations reste la rénovation de l’éclairage public (très souvent adossé sur le réseau électrique) qui est à la charge de la commune. Alors, le SDEC a mis en place un certain nombre d’outils pour faciliter ces opérations aux communes : études préalables, préparation des dossiers DETR, mise en place d’un accord cadre travaux départemental et subventions sur les travaux d’éclairage public pouvant aller jusqu’à 30 % dans le cadre d’un enfouissement de réseau.
+
+Après la tempête de 99, le SDEC a fait le choix de se concentrer sur la sécurisation du réseau. C’était l’urgence : on sécurise, on s’assure que les réseaux résisteront en cas d’incident climatique et on fera de l’esthétique plus tard. 15 ans après, la sécurisation des réseaux électriques ayant bien avancée, nous avons renforcé notre action sur les opérations d’effacement. Ces opérations — qui sont financées par le fonds de péréquation national (Fonds d’Amortissement des Charges d’Electrification), ENEDIS (dans le cadre d’un article 8 du cahier des charges de concession consacré aux opérations d’esthétique dans les bourgs) et le SDEC sur ses fonds propres — sont devenues au fil du temps une des actions les plus emblématiques du syndicat.
+
+Ce sont elles qui transforment littéralement l’aspect des bourgs en faisant disparaitre poteaux béton et réseaux 4 ou 5 fils qui encombraient l’espace et la vue ! Pour les communes, ce sont de véritables outils d’attractivité du territoire.
+
+Ces enfouissements sont des opérations souvent longues à mener, en concertation avec d’autres opérateurs (Orange, DORSAL…) et avec la commune pour la rénovation de son éclairage public, parfois même des aménagements de voirie. Dans ce SDEC’Infos, j’ai voulu que ce soit les agents du SDEC qui expliquent, pas à pas, les différentes étapes d’un enfouissement de réseau. C’est un travail complexe qui est mené sur plusieurs années, en lien avec les communes, les usagers, les opérateurs de réseau et les entreprises et je souhaite profiter de cet édito pour les remercier pour la qualité de leur travail et leur investissement.
+
+# SOMMAIRE
+
+- ÉDITORIAL
+- L’ACTU DES ÉNERGIES
+- BORNES DE RECHARGE
+- DOSSIER : ENFOUISSEMENT DU RÉSEAU BASSE TENSION
+- CONTRAT DE DÉVELOPPEMENT TERRITORIAL
+- RENOV23
+- LE SDEC, C’EST VOUS !
+
+Sdec’Info est une publication du Syndicat départemental des énergies de la Creuse
+
+ISSN 2276-5905
+
+11, av. Pierre Mendès France • 23000 GUERET
+
+Tél. : 05 55 81 53 01 • Courriel : contacts@sde23.fr
+
+Tirage : 1 300 exemplaires sur papier recyclé
+
+Directeur de la publication : André MAVIGNER
+
+Rédaction : Services du Sdec
+
+Conception : graal communication • St Goussaud
+
+Crédits graphiques : Sdec, graal, Depositphoto
+
+Tous droits de reproduction même partielle réservés • 1er trimestre 2023
+
+www.sdec23.org
+
+# l’actu en France et ailleurs
+
+En 2023, les prix des marchés du gaz et d’électricité vont connaitre des augmentations par rapport à ceux de 2022. Pour accompagner les collectivités et les établissements publics face à cette hausse, le gouvernement a annoncé une série d’aides dont les modalités diffèrent selon la taille des acteurs publics et le type de contrat. L’occasion de faire un tour sur les aides disponibles de la loi de finances, des derniers décrets publiés et leurs impacts sur les évolutions annoncées.
+
+# Fiscalité
+
+Tous les acteurs publics continueront à bénéficier de la baisse de la fiscalité sur l’électricité (TICFE) à son minimum légal européen :
+
+- 1 €/MWh pour les petites collectivités éligibles aux tarifs réglementés de vente de l’électricité (TRVe),
+- 0,5 €/MWh pour toutes les autres collectivités.
+
+# Bouclier tarifaire en Offre de Marché (OM)
+
+Les collectivités éligibles (effectifs de moins de 10 salariés à temps plein et/ou bilan ou budget annuel de moins de 2 M€) aux Tarifs Réglementés de Vente (TRV) mais en Offre de Marché (OM) auront bien un bouclier tarifaire.
+
+|Segment|Descriptif du Groupement|Prix moyen en € TTC/MWh|Evolution|
+|---|---|---|---|
+|T1|< 6 000 kWh/an|100,87 €|83,47%|
+|T2|entre 6 000 et 300 000 kWh/an|62,12 €|133,42%|
+|T3|entre 300 000 et 5 000 000 kWh/an|57,96 €|143,64%|
+|T4|> 5 000 000 kWh/an|50,68 €|163,39%|
+
+Pour quel type de contrat/site s’appliquera le bouclier tarifaire ? Le bouclier s’appliquera aux Points de Livraison (PDL) avec une puissance souscrite inférieure ou égale à 36 KVA (appelé aussi contrat C5).
+
+# Comment est calculé le bouclier tarifaire en OM ?
+
+Le montant de la compensation serait une décote (équivalente à 144€ HT/MWh) : la décote correspond à une différence entre le prix TRVe réel (ou TRVe non gelé) et le prix TRVe gelé (TRVe plafonné), cette compensation étant appliquée sur le prix moyen en offre du marché (qui est autour de 331€ HT/MWh pour un contrat C5 Bâtiment).
+
+# Augmentations prévisionnelles des budgets électricité pour 2023 (par type de lot)
+
+|LOTS|Descriptif du lot|Prix moyen 2022 en € TTC/MWh|Prix moyen 2023 en € TTC/MWh|Augmentation avec amortisseur|Augmentation avec bouclier|
+|---|---|---|---|---|---|
+|1|C5 (P<36 kVA) BAT, communes, CC et CAgg|210,07 €|400,69 €|+ 90,74%|+ 67,52%|
+|2|C5 Éclairage public, communes, CC et CAgg|207,94 €|257,86 €|+ 24,01%|/|
+|3|C5 (P<36kVA) BAT, hors communes, CC et CAgg|205,88 €|376,35 €|+ 82,80%|+63,47%|
+|4|C4, C3, C2 (P>36kVA) BAT, communes, CC et CAgg|C3 : 166,73 €|C3 : 331,96 €|C3 : + 98,99%|C3 : + 76,51%|
+
+Retrouvez plus d’infos sur : www.sdec23.org
+
+A noter : L’éclairage public ne bénéficierait par de ces dispositifs (amortisseur ou du bouclier) car les prix moyens de fourniture sont inférieurs aux seuils fixés pour ces aides.
+
+# Le point sur
+
+# Bornes de recharge pour Véhicules Electriques
+
+# Les ENFOUISSEMENTS
+
+# Mise en service IRVE du réseau basse tension du nouveau parc
+
+Au moment de sa prise de compétence en 2021, le constat fait par le SDEC concernant le réseau de bornes de recharge publique creusois, était celui d’un maillage trop faible et peu homogène (persistance de zones blanches notamment dans le grand Sud-Est du département). La Creuse était l’un des départements le moins bien doté en terme d’IRVE pour 100 000 habitants.
+
+# Un parcours… long
+
+Le maillage du réseau départemental s’étoffe et devient plus cohérent dans sa répartition géographique. Certaines des plus grandes communes du département n’étaient pas équipées en bornes de recharge publique, comme Felletin, Ahun, Boussac, Auzances ou Gouzon. Également, certaines des principales communes du département étaient « sous-équipées », comme La Souterraine avec une seule borne de recharge ou encore Bourganeuf.
+
+Deux ans après sa prise de compétence (IRVE) et un an et demi après la présentation officielle de son Schéma Directeur, le SDEC est satisfait de voir son nouveau réseau de bornes de recharge entrer en service. Ce n’est finalement que courant Mars 2023 que les nouvelles bornes du SDEC ont rechargé leurs premiers véhicules.
+
+Ce tout nouveau réseau présente la spécificité d’être particulièrement bien fourni en bornes de recharge rapide (50kW-DC). Le SDEC a pris soin de les répartir de façon géographique sur le département, à proximité des grands axes de circulation du département et dans les communes avec le plus de population.
+
+A noter : Pour résumer, le SDEC aura mis en service au cours de ce premier trimestre 2023, 17 nouvelles bornes rapides 50kW-DC, 5 nouvelles bornes 22kW-AC, 1 borne 24kW-DC* ainsi qu’une borne 11kW-AC de type Wallbox.
+
+Pour profiter au mieux de ces nouvelles bornes de recharge sur le département, le SDEC préconise aux utilisateurs réguliers d’adhérer au service MOBIVE (réseau de mobilité des Syndicats d’Energie de la Nouvelle Aquitaine, tarification plus avantageuse et meilleure fiabilité des recharges**). Les informations sont disponibles sur le site Internet : www.mobive.fr
+
+# Utilisation des bornes en 2022
+
+En 2022, ce sont 2 911 sessions de recharges réussies qui ont été effectuées sur le réseau de bornes du SDEC, soit une moyenne de 162 recharges par an et par borne. La quantité d’énergie délivrée pour l’ensemble de ces sessions est de 58 839 kWh, soit environ 45 tonnes équivalent C02 de rejet dans l’atmosphère évitées (l’équivalent de 45 allers-retours long courrier Paris/New-York !).
+
+# Travaux
+
+Malgré l’étendue de notre territoire, le réseau des bornes est en passe de répondre aux attentes des utilisateurs. Les bornes en service et en cours de réalisation à avril 2023 avec ses branchements, ses multiples poteaux, ses câbles isolés…n’est pas une mince affaire et demande une coordination sans faille. Ce long parcours vous est expliqué pas à pas dans ce dossier.
+
+# Préparation
+
+* La borne 24DC permet de réaliser des recharges en courant continu avec une puissance maximale de 24kW. Elle va permettre aux utilisateurs ayant un chargeur interne de 7kW ou 11kW de recharger relativement rapidement depuis le câble Combo CCS présent sur la borne.
+
+** D’après les statistiques, les taux de réussites des sessions sont plus élevés avec un Pass Mobive qu’avec un Pass d’un autre opérateur en itinérance ou à via un paiement à l’acte.
+
+|Utilisation des bornes en 2022|700|
+|---|---|
+| |600|
+| |500|
+| |400|
+| |300|
+| |200|
+| |100|
+
+BONNA T
+
+CROZANT
+
+LUS SAT
+
+AUBUSSON
+
+Bourganeuf
+
+Place Bonny aud
+
+LA SOUTERRAINE
+
+EVAUX LES BAINS
+
+Park ing de Courtille
+
+DUN LE PALESTEL
+
+BENEVENT L'ABBAYE
+
+ROYERE DE VASSIVIERE
+
+Mairie de Sainte Feyre
+
+Mairie de Saint Vaury
+
+Aire des monts de Guéret
+
+CHAMBON SUR VOUEIZE
+
+Parc animalier des monts de Guéret
+
+# ENFOUISSEMENT
+
+# du réseau basse tension
+
+A noter : le délai d’attente actuel est d’environ 2 ans minimum avant le traitement du dossier
+
+# Durée estimative des différentes étapes
+
+|0,5 jour|3 mois|1 à 6 mois|2 mois|4 à 18 mois|
+|---|---|---|---|---|
+|Les 5 étapes d’un enfouissement de réseau|Les 5 étapes d’un enfouissement de réseau|Les 5 étapes d’un enfouissement de réseau|Les 5 étapes d’un enfouissement de réseau|Les 5 étapes d’un enfouissement de réseau|
+|1|2|3|4|5|
+
+# Enfouissement :
+
+l’opération emblématique du SDEC
+
+# RÉCEPTION DE LA DEMANDE
+
+# PRÉPARATION DE L’OPÉRATION
+
+# ÉTUDES DES TRAVAUX
+
+# PRÉPARATION DES TRAVAUX
+
+# TRAVAUX
+
+Les enfouissements de réseau basse tension ont connu différentes appellations au fil des décennies et des acteurs que le SDEC a connus. On a parlé d’aménagement esthétique, de dissimulation ou d’effacement voire même d’enterrement de réseau (sic).
+
+Quoi qu’il en soit, toutes ses expressions qualifient une opération identique à but esthétique : supprimer le réseau électrique aérien avec ses branchements, ses multiples poteaux, ses fils de cuivre dénudés et ses câbles isolés. Pour cela, il n’existe qu’une seule solution qui consiste à créer une structure entièrement souterraine.
+
+Ces travaux sont réalisés par le SDEC et peuvent bénéficier de subventions diverses. En considérant le but recherché — améliorer l’environnement d’un bourg—, les montants investis (parfois plus d’un demi-million d’euros) et le temps passé (plus d’une année peut être nécessaire), ces opérations d’enfouissement de réseau sont les opérations emblématiques du SDEC.
+
+Depuis 2018, plus de 4 200 000 € HT en moyenne sont investis chaque année pour réaliser ces travaux. Le SDEC peut d’ailleurs se féliciter des résultats obtenus et du satisfecit des bénéficiaires des travaux.
+
+# les principaux chiffres
+
+3 entreprises mandatées par le SDEC
+
+longueur moyenne de tranchée réalisée : 1 300 m
+
+Depuis avril 2023 et le renouvellement du marché travaux du SDEC, trois entreprises sont en charge des travaux sur le réseau électrique de distribution publique. Le nouvel allotissement a découpé la Creuse en six secteurs géographiques.
+
+Deux lots sont attribués par entreprise :
+
+- ALLEZ et Cie : Basée à ST FIEL, ALLEZ et Cie intervient sur les lots n° 1 et n° 2. Le lot n° 1 correspond au secteur Nord-Ouest du département et le lot n° 2 au secteur Nord.
+- SOBECA : Nouvelle venue sur le marché du SDEC, l’entreprise SOBECA est domiciliée à Châteauroux. Elle a décroché les lots n° 3 et n° 4 correspondant respectivement au Nord-Est et au Sud-Ouest de la Creuse.
+- SOCALEC : Entreprise historique des marchés du SDEC, SOCALEC de Gouzon a hérité des lots n° 5 et n° 6. Son domaine d’intervention est le Sud pour le lot n° 5 et le Sud-Est pour le lot n°6.
+
+# longueur moyenne
+
+réseau aérien déposé : 800 m
+
+# coût moyen d’un chantier d’enfouissement :
+
+230 000 € HT
+
+# Le financement des travaux d’enfouissement
+
+Trois modes de financement permettent de réaliser les travaux d’enfouissement :
+
+- Fonds propres : le SDEC finance sur ses fonds propres les enfouissements au titre du programme non-subventionné (NS). Ces fonds proviennent des taxes et redevances de concession, des participations financières sur certains travaux comme les extensions de réseau BT et de la vente du cuivre suite à la dépose des lignes vétustes. Environ 80% des enfouissements sont autofinancés par le SDEC.
+- FACE C : le Fonds d’Amortissement des Charges d’Electrification (FACE) alloue chaque année au SDEC des subventions permettant de réaliser des travaux sur le réseau électrique. Pour les enfouissements, c’est le programme C. De près de 700 000 € en 2018, celui-ci est passé à environ 600 000 € en 2022. C’est moins de 15% des travaux d’enfouissement financés par ce programme chaque année.
+- Article 8 : d’après l’article 8 du cahier des charges de concession signé en 2019, ENEDIS apporte au SDEC une aide de 40% du coût HT des travaux d’enfouissement. Cette subvention est plafonnée à 350 000 €/an. Selon les années, elle bénéficie à quatre ou cinq dossiers par programmation.
+
+# demandes d’enfouissement inscrites sur liste d’attente :
+
+47
+
+# enfouissements en totalité
+
+82
+
+# enfouissements partiels
+
+60
+
+# aucun enfouissement
+
+dont 50 tronçons en fils nus
+
+# ENFOUISSEMENT du réseau basse tension
+
+Définir, mesurer, calculer, informer, réaliser…
+
+La réalisation des études d’exécution
+
+Les corps de métiers à l’ouvrage sont confiés au chargé d’études David BORDAT, Philippe PASQUIGNON et Clément ROCHELLI.
+
+La première étape consiste à réaliser la déclaration de travaux (DT) sur le guichet unique. Différents organismes sont ainsi informés du projet de travaux du SDEC. Ils communiquent alors la position des réseaux souterrains existants.
+
+Après les opérations de levés topographiques et de localisation des réseaux souterrains existants, le chargé d’études prépare sa visite sur site (ou piquetage) et interragissent pour déposer, tracer du réseau souterrain à créer, branchements électriques à reprendre…
+
+Toutes les communes creusoises peuvent solliciter le SDEC pour un enfouissement de réseau. Une simple demande permet d’inscrire la commune sur la liste d’attente des projets d’enfouissement. A ce jour, le délai d’attente est d’environ deux ans, la programmation se faisant en fonction de l’ordre d’arrivée des demandes.
+
+Le SDEC dispose de 3 chargés d’études pour réaliser les études d’enfouissement du réseau électrique : David BORDAT et Philippe PASQUIGNON sont des piqueteurs expérimentés qui pratiquent depuis plusieurs décennies. Ils ont été rejoints dernièrement par Clément ROCHELLI, spécialiste en études aériennes.
+
+Une réunion en mairie et sur site est organisée afin de déterminer le périmètre d’enfouissement, recueillir les informations utiles à l’opération, envisager le réaménagement des installations d’éclairage public et exposer le déroulement de la procédure.
+
+Dès la programmation validée par le comité syndical du SDEC, le dossier est lancé en étude. Comme pour tous les travaux sur le réseau de distribution publique, le SDEC est son propre maître d’œuvre pour les enfouissements, c’est-à-dire qu’il réalise lui-même les études nécessaires à l’exécution des travaux et qu’il contrôle ces derniers.
+
+Les travaux sont ensuite confiés aux 3 entreprises titulaires du marché publique du SDEC, en fonction des lots qui leurs sont attribués. Ces travaux sont inscrits sur un bon de commande édité en début de chaque mois indiquant notamment les délais de réalisation impartis.
+
+Lorsque toutes les conventions de passage sont signées, l’étude touche à sa fin. Le dossier de construction est alors déposé. Les différents services et administrations disposent alors de 21 jours pour communiquer leur avis.
+
+Le dossier de construction d’enfouissement Orange précise les relevés de terrain en utilisant le matériel de topographie.
+
+# PROGRAMMATION ENFOUISSEMENTS 2024
+
+|Bon de commande|Lot n°|Coût estimatif TTC janv.-24|Coût estimatif HT janv.-24|Chargé Etude EP|Chargé Etude ER|
+|---|---|---|---|---|---|
+|3 Réfection RD n° 917|4|200 880.00 €|167 400.00 €|191 160.00 €|févr.-24|
+|6 PNR|6|159 300.00 €|356 400.00 €|Site Réseau BT|févr.-24|
+|Aménagement bourg|39-160|297 000.00 €|159 840.00 €|mars-24|2|
+
+Franck PRIGENT, chargé d’études topographe, respecte la même procédure.
+
+Le dossier de construction d’enfouissement Orange précise les relevés de terrain en utilisant le matériel de topographie.
+
+Il est également nécessaire de maitriser des outils et techniques relatifs au dessin et à l’usage de plans à toutes les échelles.
+
+# ENFOUISSEMENT
+
+# du réseau basse tension
+
+# Energies renouvelables
+
+# Les corps de métiers à l’ouvrage
+
+# Contrat de chaleur renouvelable thermique
+
+# Le contrôle des travaux
+
+contrôleur de travaux François SALGUES, au SDEC C’est validé ! de la Creuse
+
+Rencontre avec François SALGUES, contrôleur de travaux du SDEC spécialisé en enfouissement, sur le chantier de la rue de Pommeil à Guéret, importante opération d’enfouissement d’un coût estimatif de 500 000 €. Les travaux ont débuté en janvier 2023 et devraient se terminer vers mai 2024.
+
+# Témoignage
+
+Afin d’accélérer la transition énergétique, le Syndicat des Energies de la Creuse (SDEC), le Centre Régional des Energies Renouvelables (CRER) et le Conseil Départemental de la Creuse (CD 23), se sont associés pour candidater à un Contrat de Développement Territorial des Energies Renouvelables thermiques auprès de l’ADEME.
+
+- Quelle est la particularité de ce chantier ?
+- Quel est le rôle du contrôleur de travaux ?
+
+Ce chantier de Guéret est plutôt complexe car situé en zone urbaine avec de multiples reprises de branchements. Compte tenu de la configuration du secteur avec des maisons en surplomb de la route et peu faciles d’accès pour des engins de travaux publics, la plupart des branchements doit être reprise manuellement. C’est à dire à l’ancienne, à la pelle et à la pioche.
+
+Le contrôle des travaux est une phase essentielle qui permet de s’assurer de la conformité des réalisations sur le terrain avec l’étude préalable. Une partie importante du travail du contrôleur est aussi de s’assurer que les conditions de sécurité sur le chantier sont respectées, notamment pour les usagers : barrières de protection, accès au chantier, ... Enfin, le contrôleur de travaux a un rôle primordial en fin de chantier pour contrôler la conformité des travaux, dresser les PV de réception et vérifier que les factures correspondent aux travaux réalisés.
+
+# Des enfouissements coordonnés
+
+Le dossier, déposé le 14/10/2022 auprès de l’ADEME, a été validé par la Commission Régionales des Aides ADEME le 31/01 dernier ! En effet, ce programme vise à développer les énergies renouvelables thermiques à l’échelle d’un territoire et donc substituer notamment les énergies fossiles.
+
+Parce que l’union fait la force, le SDEC, le CRER et le CD23 se sont associés pour soutenir et présenter un «pack» de projets de production d’énergie renouvelable avec un nombre minimum d’installations hors biomasse, de façon à atteindre un objectif ambitieux de production d’énergies renouvelables thermiques sur 3 ans, avec une assistance technique à toutes les étapes des opérations.
+
+# Mission réussie !
+
+La signature officielle du contrat est prévue le 03 mai prochain à la suite d’une journée animation Géothermie à Bénévent l’Abbaye qui dispose d’une telle installation mise en service depuis 2021 pour ses écoles et la Maison des Pères moines.
+
+Rendez-vous est donc pris à Bénévent pour célébrer officiellement cette nouvelle donne pour notre département !
+
+# Les principaux chiffres
+
+|production EnR annuelle attendue|7 240 MkW|
+|---|---|
+|projets Biomasse|23|
+|projets Géothermie|10|
+|projets Solaire thermique|3|
+|investissement estimé|8 997 500 €|
+|aides à l’investissement|4 115 206 €|
+
+# Pour plus d’informations et bénéficier de ce dispositif d’accompagnement pour vos projets de chaleur renouvelable, contactez-nous :
+
+|Secteur public|Secteur privé|Département|
+|---|---|---|
+|Benjamin MOUNEY|Denis RENOUX|Isabelle DENIS|
+|b.mouney@sde23.fr|denis.renoux@crer.info|idenis@creuse.fr|
+|05 87 15 00 23|05 49 08 24 24|05 44 30 25 71|
+
+# RENOV23
+
+Faire des économies d’énergie dans mon logement, améliorer le confort, trouver un interlocuteur de confiance… Je contacte RENOV23 pour me faire accompagner !
+
+Retrouvez plus de conseils sur : ATTENTION aux profiteurs…
+
+# Vos rendez-vous rénovation énergétique de RENOV23
+
+Chaque jour, de nombreuses personnes sont démarchées par des entreprises offrant des offres très alléchantes relatives aux travaux de rénovation énergétique. Restez vigilant ! En effet, certaines entreprises se comportent de façon peu scrupuleuse : devis incompréhensibles, crédits camouflés, labels de qualité mensongers, réalisation de présentations parfois non conformes, etc.
+
+# 4 conseils pour éviter les arnaques :
+
+- Ne signez pas d’engagement lorsqu’une entreprise vous démarche au téléphone.
+- Avant de vous lancer dans des travaux faites quelques vérifications notamment en vérifiant le label du professionnel, comparer les prestations et les prix en lisant bien l’intégralité des documents.
+- En cas de financement des travaux par un prêt, prêtez une attention particulière au coût total du prêt.
+- En cas de travaux ne s’étant pas déroulés comme prévu, n’hésitez pas à vous faire accompagner par un service juridique.
+
+# Attention aux acomptes
+
+Le vendeur à domicile ne peut recevoir aucun paiement ou aucune contrepartie de la part du client avant l’expiration d’un délai de 7 jours à compter de la conclusion du contrat. Ainsi, le vendeur à domicile ne peut pas recevoir d’acomptes, de chèques ou d’autorisations de prélèvement bancaire. Il lui est également interdit d’effectuer une prestation de service avant l’expiration de ce délai. Dans un cas comme dans l’autre, le contrat n’est pas valable si le vendeur à domicile perçoit le paiement sans respecter ce délai.
+
+# Des conseils techniques
+
+- Aide à la définition du programme de travaux, du choix des matériaux.
+- Etude des devis, en fonction des profils, des besoins, des choix esthétiques et des contraintes d’urbanisme.
+
+Si vous avez signé un contrat pour des travaux de rénovation énergétique suite à un démarchage à domicile et que vous souhaitez changer d’avis, n’hésitez pas à faire valoir votre droit à la rétractation prévu par la loi dans un délai de 14 jours.
+
+# Un accompagnement dans le montage financier
+
+- Calcul des aides mobilisables, recherche de solutions de financement complémentaires.
+- Montage et dépôt des demandes de primes.
+- Vérification de la conformité des dossiers, accompagnement au dépôt des demandes de primes et suivi jusqu’à leur versement.
+
+# L’accompagnement spécifique en fonction des besoins
+
+- Aide à l’utilisation des plateformes informatiques, création de boites mail, conseils suite à du démarchage abusif, avis sur les consommations énergétiques, co-accompagnement pour certains ménages avec Creuse Habitat…
+
+# Contact :
+
+Téléphone : 05 55 51 03 39
+
+Accueil téléphonique : du lundi au jeudi 9h - 12h / 14h - 17h
+
+Accueil physique : sur rendez-vous
+
+Email : renov23@sde23.fr
+
+Julie KAABI, conseillère RENOV23, vous accueille lors des permanences dans les communes.
+
+# AJAIN
+
+# Travaux d’enfouissements
+
+# MOUTIER-MALCARD
+
+# Rénovation énergétique
+
+Le SDEC c’est l’outil des communes et c’est vous !
+
+communautés de communes et l’émanation directe des collectivités tant dans sa représentation que dans ses politiques territoriales. Alors, nous avons décidé de vous donner la parole directement en publiant régulièrement
+
+# Paroles des témoignages d’élus !
+
+- à Guy Rouchon qui témoigne de l’expérience de sa commune, Ajain, lors des travaux d’enfouissements,
+- à Pierre Guyot, maire de Moutier-Malcard, à propos du projet de rénovation énergétique et géothermie.
+
+# Dans ce numéro du SDEC’Info, nous donnons la parole :
+
+# Interview : Guy ROUCHON, Maire d’Ajain
+
+Le Maire d’Ajain, commune de plus de 1 000 habitants située à l’Est de Guéret en bordure de la N 145, a bien voulu nous faire part de son retour d’expérience sur les travaux d’enfouissement menés dans sa commune en 2021.
+
+• A la demande de la commune, le SDEC a réalisé en 2021 des travaux d’enfouissement du réseau électrique basse tension à Ajain. Qu’est-ce-qui a motivé une telle demande ?
+
+La majorité du réseau était enfoui. Il ne restait plus que quatre zones aériennes dans le bourg d’Ajain. Le conseil municipal s’est prononcé pour leur enfouissement. Ces lignes soumises aux intempéries, notamment le vent, sont très vulnérables et ne sont pas esthétiques.
+
+• Des travaux de cette ampleur engendrent forcément des problèmes de circulation mais également des nuisances comme le bruit et la poussière. Comment vos administrés ont-ils vécu cette période ?
+
+Bien sûr, les riverains de travaux manifestent toujours quelques agacements. C’était le cas sur cette opération. La position de la mairie était de leur expliquer que l’on ne fait pas de travaux pour les gêner, mais pour leur bien ou tout au moins dans l’intérêt général. En principe ça se passe bien et tout rentre dans l’ordre.
+
+• Pour conclure, recommanderiez-vous ce type d’opération à vos collègues creusois ?
+
+Bien entendu, le SDEC sait faire ; c’est un partenaire sérieux en qui nous avons complètement confiance. Il s’occupe des différentes démarches et la suppression de ces lignes aériennes vulnérables et disgracieuses est une bonne solution.
+
+Guy Rouchon
+maire d’Ajain
+
+# Moutier-Malcard en pleine rénovation énergétique
+
+Notre projet de rénovation énergétique et de décarbonations de nos systèmes de chauffage ne pouvait se concrétiser sans l’intervention de professionnels pouvant répondre à nos exigences.
+
+Pour se faire, nous avons pris l’attache du SDEC qui a la capacité d’épauler efficacement les projets structurants dont il a la maîtrise. Par le passé, le SDEC a été aussi à nos côtés lors de la rénovation de notre bourg. Dans un premier temps, le conseil municipal a collaboré sur la rénovation énergétique de l’ensemble des bâtiments communaux par une expertise puis des scénarios de travail.
+
+Après cette première étape, nous avons réalisé l’isolation sur les immeubles locatifs propriété de la commune.
+
+Dans un deuxième temps, sur la mairie, la salle des réunions et un immeuble locatif, nous sommes en train de réaliser l’isolation complète et un réseau de chaleur par géothermie. Ce choix de la géothermie a été volontaire ne voulant pas participer à la « déforestation » de notre territoire sans une politique efficace de gestion de la ressource. Le SDEC nous a aidé dans les conseils, le montage du dossier administratif et le suivi du chantier.
+
+Les ambitions d’une petite commune rurale ne peuvent se réaliser sans les compétences de tous.
+
+Pierre Guyot
+maire de Moutier-Malcard
+

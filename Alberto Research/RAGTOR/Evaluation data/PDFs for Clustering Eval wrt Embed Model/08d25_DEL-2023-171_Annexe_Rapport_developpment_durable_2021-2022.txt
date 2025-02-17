@@ -1,0 +1,959 @@
+# RAPPORT DE DÉVELOPPEMENT DURABLE
+
+# 2021 - 2022
+
+# SOMMAIRE
+
+# INTRODUCTION
+
+4
+
+# UN PACTE POUR LE CLIMAT AMBITIEUX POUR ACCÉLÉRER LA TRANSITION ÉCOLOGIQUE DE NOTRE TERRITOIRE
+
+5
+
+# AXE 1
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 1 : MOBILISER L’ENSEMBLE DES ACTEURS ET LES CITOYENS AUTOUR DU PLAN CLIMAT
+
+8
+
+# ORIENTATION 1 : Un plan d’action citoyen : les ateliers permanents du climat.
+
+10
+
+# ORIENTATION 2 : Les collectivités, moteurs de la transition énergétique
+
+12
+
+# ORIENTATION 3 : Favoriser l’engagement des acteurs économiques.
+
+16
+
+# AXE 2
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 2 : MAÎTRISER NOS CONSOMMATIONS D’ÉNERGIE
+
+18
+
+# ORIENTATION 4 : Contribuer à la transition par l’aménagement du territoire
+
+20
+
+# ORIENTATION 5 : Planifier une mobilité durable
+
+22
+
+# ORIENTATION 6 : Accélérer la transition vers des logements sobres en énergie
+
+26
+
+# ORIENTATION 7 : Atténuer les impacts du secteur économique.
+
+28
+
+# AXE 3
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 3 : VALORISER LES RESSOURCES DU TERRITOIRE
+
+30
+
+# ORIENTATION 8 : Mettre à profit la richesse sylvicole du territoire.
+
+32
+
+# ORIENTATION 9 : Développer les circuits-courts locaux et l’économie circulaire.
+
+33
+
+# ORIENTATION 10 : Renforcer la production locale d’énergies renouvelables.
+
+34
+
+# AXE 4
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 4 : METTRE EN PLACE UNE STRATÉGIE OPÉRATIONNELLE D’ADAPTATION AU CHANGEMENT CLIMATIQUE
+
+36
+
+# ORIENTATION 11 : Préserver durablement la santé en adaptant l’habitat, l’environnement urbain et les activités humaines au changement climatique.
+
+38
+
+# ORIENTATION 12 : Maîtriser et partager équitablement la ressource en eau.
+
+39
+
+# ORIENTATION 13 : Assurer la sécurité des biens et des personnes face aux risques naturels renforcés
+
+41
+
+# ORIENTATION 14 : Protéger les écosystèmes fragilisés par les pressions humaines et le changement climatique pour favoriser la séquestration carbone
+
+42
+
+# RETOUR SUR LA QUALITÉ DE L’AIR SUR LE TERRITOIRE EN 2021-2022
+
+44
+
+# TABLEAU RÉCAPITULATIF DE L’AVANCEMENT DES ACTIONS
+
+48
+
+# INTRODUCTION
+
+Un PACTE pour le climat
+
+Le décret n°2011-687 du 17 juin 2011 pris en application de l’article 255 de la loi n°2010-788 du 12 juillet 2010 portant engagement national pour l’environnement dite « Grenelle 2 » instaure la création d’un rapport sur la situation en matière de développement durable par les collectivités territoriales.
+
+C’est pour répondre à ces impératifs de transparence que le Grand Annecy élabore ce rapport présentant l’avancement des actions et les principales réalisations en faveur de la transition écologique en 2021 et 2022.
+
+Le Plan climat air énergie territorial, ou PACTE pour le climat, a été approuvé le 24 juin 2021 par le Conseil communautaire (DEL-2021-162). Sa stratégie, co-construite avec les citoyens, fixe l’objectif ambitieux de s’inscrire dans la neutralité carbone à horizon 2050, traduites pour la France dans la Stratégie Nationale Bas Carbone.
+
+L’année 2021 a été riche en avancées dans ce domaine, avec un temps fort : l’approbation du Plan Climat Air Energie (PCAET) par le Conseil communautaire du 24 juin. Face aux impacts des dérèglements climatiques déjà sensibles sur le territoire, le diagnostic territorial a permis d’identifier les enjeux prioritaires :
+
+- réduire les émissions de gaz à effet de serre et les consommations énergétiques des deux secteurs les plus impactants, c’est-à-dire les mobilités et les bâtiments résidentiels et tertiaires ;
+- développer la production locale d’énergie renouvelable et de récupération ;
+- préserver et développer les puits de carbone du territoire ;
+- accompagner les habitants pour qu’ils s’adaptent aux impacts actuels et futurs du dérèglement climatique et adoptent des comportements éco-responsables.
+
+À partir de 2022, le Grand Annecy s’est doté de moyens renforcés pour piloter la transition environnementale. Le PCAET a été renommé « un PACTE pour le climat », afin de revêtir une dimension partenariale et accessible.
+
+Les actions du PACTE pour le climat sont nombreuses à avoir été lancées ou notablement avancées. Parmi les réalisations les plus significatives : le lancement de la « consult’action », le lancement du plan alimentaire territorial, l’intégration du volet bioclimatique dans le plan local d’urbanisme Intercommunal en cours d’élaboration, la poursuite de la massification de la rénovation des logements, la gratuité estivale du réseau de transport en commun.
+
+# ÉVOLUTION DES ÉMISSIONS DE GAZ À EFFET DE SERRE (GES) SELON LES SECTEURS D’ACTIVITÉS
+
+| |Valeur en kteqCO2| | | | | | | | | | | | | | | | | | | | | | |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| | |1990|2000|2005|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021| | | | | | | |
+|Agriculture| | | |6%|1%|7%|10%|10%|6%|6%|6%|6%|6%|9%|7%|7%|7%|7%|7%|7%| | | |
+|Gestion des déchets| |12%| |8%|10%|8%|10%|9%|8%|8%|7%|8%|8%|7%|8%|8%|8%|8%|8%| | | | |
+|Industrie hors branche énergie| | | | | | |27%|28%|29%|29%|28%|28%|27%|27%|27%|27%|9%|9%|9%|9%|9%|9%|9%|
+|Tertiaire| | |19%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%|16%| | | | |
+|Transport routier| |37%|36%|39%|42%|43%|44%|43%|44%|44%|47%|47%|46%|48%|42%|43%| | | | | | | |
+
+Axe par axe et pour chaque action du PACTE, les réalisations effectuées par le Grand Annecy au cours des années 2021 et 2022 sont ici résumées.
+
+# ÉVOLUTION DES ÉMISSIONS BRUTES DE GAZ À EFFET DE SERRE SUR LE TERRITOIRE
+
+# FACTURE ÉNERGÉTIQUE ANNUELLE DU TERRITOIRE RAPPORTÉE AU NOMBRE D’HABITANTS EN €/HAB
+
+| |2015|2021|2030|2050|
+|---|---|---|---|---|
+|Émissions en kteqCO2|2 573 €|2 417 €|2 239 €|975 €|
+|-15% d’émissions de GES|2 500 €|2 383 €|470 €| |
+| |394 €|347 €|459 €| |
+| |2 000 €|593 €|485 €| |
+| |800|347 €|396 €| |
+| |600|616 €|556 €| |
+| |400|425 €|378 €| |
+| |200|806 €|683 €| |
+| |0|0|0| |
+
+# LES EFFORTS À RÉALISER DANS CHAQUE SECTEUR
+
+Développer les énergies renouvelables
+
+Les énergies renouvelables seront mobilisées pour concourir à l’objectif. Il faudra doubler leur capacité de production entre 2015 et 2030 pour atteindre 688 GWh/an et tripler d’ici 2050.
+
+Développer les puits de carbone pour séquestrer du carbone
+
+Les émissions résiduelles de gaz à effet de serre devront être séquestrées dans des puits de carbone, c’est-à-dire dans des espaces naturels et forestiers du territoire à préserver et à développer.
+
+Cette ambition s’appuie sur une politique volontariste de plantation d’arbres, de désimperméabilisation des sols, d’utilisation de bois dans la construction et surtout par la préservation des fonciers forestiers, agricoles et naturels.
+
+Favoriser la sobriété et efficacité pour réduire les consommations d’énergie
+
+Ces objectifs ne pourront être atteints qu’en activant le levier de la sobriété et de l’efficacité énergétique du territoire qui devra se traduire par une diminution de la consommation énergétique de 37 % en 2030 et de 59 % en 2050 par rapport à 2015.
+
+# Améliorer la qualité de l’air
+
+Les émissions sont calculées par rapport à 2005 qui est l’année de référence des objectifs européens. D’ici 2030 et d’ici 2050, les diminutions en polluants atmosphériques devront être :
+
+- les oxydes d’azote : diminution de 67 % en 2030 et 96 % en 2050
+- les PM 10 : diminution de 55 % en 2030 et 75 % en 2050
+- les PM 2,5 : diminution de 58 % en 2030 et 77 % en 2050
+- les composés organiques volatils non méthaniques COVNM : diminution de 52 % en 2030 et 69 % en 2050
+- le dioxyde de souffre : diminution de 86 % en 2030 et 90 % en 2050
+- l’ammoniac (NH3) : diminution de 20 % en 2030 et 37 % en 2050
+
+Les évolutions technologiques et la diminution des consommations d’énergie sont les deux principaux vecteurs pour l’amélioration de la qualité de l’air sur le territoire.
+
+Le Grand Annecy a renforcé ses moyens humains pour la mise en œuvre du PACTE pour le Climat : au total, ce sont 70 agents qui contribuent à la mise en œuvre du PACTE, dont 40 qui pilotent les 70 actions.
+
+# MOBILISER L’ENSEMBLE DES ACTEURS
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 1 :
+
+ET LES CITOYENS AUTOUR DU PACTE POUR LE CLIMAT
+
+# AXE 1
+
+# Un plan d’action citoyen : les ateliers permanents du climat
+
+Un questionnaire a été conçu avec une centaine d’habitants, en vue de comprendre où en sont les Grand Annéciens par rapport au dérèglement climatique et aux changements de comportements. Pendant 6 semaines, les Consult’acteurs volontaires (citoyens, élus, agents) sont allés au contact de leurs voisins, collègues et amis pour les interroger. Les plus jeunes ont été largement impliqués (collèges, lycées). Ces défis sont organisés en partenariat avec le CLER (réseau pour la transition énergétique). Au total, 4169 questionnaires ont été recueillis, un chiffre inédit à l’échelle de l’agglomération, et ont suscité des milliers d’heures d’échange et de discussion autour de la transition écologique et des changements de comportements. Les résultats exhaustifs de la Consult’action sont disponibles sur le site du Grand Annecy : https://www.calameo.com/read/004320063e4ba841dfe8b
+
+# APPRENDRE À NOS ENFANTS À VIVRE ET RESPECTER LA MONTAGNE ET LE PAYSAGE
+
+En 2021, le Grand Annecy est intervenu dans les écoles sur différents sujets (mobilité, environnement, déchets). Le Grand Annecy a également développé un dispositif apprenant avec les habitants autour de la ressource en eau : le Lab’eau. Le Grand Annecy bénéficie d’une subvention de l’Agence de l’eau Rhône Méditerranée Corse dans le cadre de l’appel à projet « Eau et participation citoyenne ».
+
+En 2021, le jardin alpin du Semnoz a été ouvert au public tous les jours du 16/06 au 01/09. Durant cette période, durant 6 mercredis après-midi, un employé de la FNE a assuré une permanence au Jardin Alpin, afin d’accueillir le public et d’animer 2 ateliers différents : la flore typique de montagne et les plantes sauvages comestibles.
+
+# ACCOMPAGNER L’ÉVOLUTION DES PRATIQUES DES MANIFESTATIONS SUR LE TERRITOIRE EN FAVEUR DE LA TRANSITION ÉNERGÉTIQUE
+
+Dès 2020, un travail a été engagé avec CITIA, organisateur du festival international du film d’animation, pour accompagner le festival vers une labellisation environnementale. Parallèlement, le Grand Annecy soutient à travers sa pépinière Quai 225 deux entrepreneurs qui travaillent sur les évènements régénératifs.
+
+Le Grand Annecy a également engagé le dialogue avec les structures porteuses des grands événements qui animent le territoire.
+
+# FAVORISER L’ÉMERGENCE DE « CENTRALES CITOYENNES » DE PRODUCTION D’ÉNERGIES RENOUVELABLES
+
+En 2021, le Grand Annecy a poursuivi son soutien à la coopérative Solaire du lac, débuté en 2019 avec une subvention d’amorçage pour lancer l’activité de la coopérative. Les échanges se sont poursuivis en vue de définir le cadre et les modalités d’une convention de partenariat et de financement.
+
+# ENGAGER UN GRAND DÉBAT PARTICIPATIF ET SOUTENIR FINANCIÈREMENT LES INITIATIVES DU TERRITOIRE
+
+Une délibération cadre définissant les conditions et modalités de participation des habitants aux politiques publiques du Grand Annecy a été votée le 27 mai 2021. Issue des réflexions d’un groupe de travail composé d’élus communautaires et municipaux, de techniciens des communes et de l’agglomération, cette délibération comprend 8 principes, un schéma des différentes manières de s’impliquer sur le territoire pour les habitants, et un guide des questions clés à se poser avant d’engager une démarche de participation citoyenne.
+
+De plus, le « Livre Numérique » Im@book, « donnant à voir » l’avancement des 90 objectifs du projet de territoire 2020, étroitement lié au PACTE pour le climat, a été mis en ligne en mai 2021 à l’attention du grand public (omnibook.com/grand-annecy).
+
+# CRÉER LA MAISON DE LA TRANSITION
+
+Plutôt que la création d’un lieu physique dédié à la transition, le Grand Annecy a choisi d’aller vers les habitants et usagers du territoire, au plus près des publics, en variant les lieux, les moments et les propositions, pour les sensibiliser. Ainsi le Grand Annecy a été présent sur de nombreuses manifestations, pour sensibiliser les publics et les informer des dispositifs à leur disposition (J’écorénove, Fonds Air Bois, mobilités, alimentation) : au sein d’un lycée, sur les marchés, lors des foires et fêtes locales, dans un centre hospitalier.
+
+En 2022, le Grand Annecy a proposé aux habitants de l’agglomération de participer à 2 défis « Déclics ». Le défi « alimentation & déchets » a permis d’accompagner 108 foyers d’avril à juin 2022 pour leur permettre de réduire leurs déchets avec au final une baisse globale de 25% et d’adopter une alimentation saine, locale et de saison. Le second, un défi « énergie et eau » accompagne 120 foyers pour 4 mois à compter de novembre 2022, avec un objectif : réduire de 15% les consommations domestiques d’énergie et d’eau. Ces défis sont organisés en partenariat avec le CLER (réseau pour la transition énergétique) via la plateforme Déclics, et animés par l’association ASDER. Des évènements (visites, ateliers, conférences) ont été organisés afin de faire monter en compétence les participants et dynamiser la démarche.
+
+Ces défis sont organisés en partenariat avec le CLER (réseau pour la transition énergétique) via la plateforme Déclics, et animés par l’association ASDER. Des évènements (visites, ateliers, conférences) ont été organisés afin de faire monter en compétence les participants et dynamiser la démarche.
+
+# METTRE EN ŒUVRE LE PLAN DE MOBILITÉ INTERNE DU GRAND ANNECY
+
+Les collectivités, moteurs de la transition énergétique.
+
+En 2021, dans le cadre de la mise en œuvre de son Plan de Mobilité interne, le Grand Annecy a :
+
+- aménagé des places de stationnement réservées aux covoitureurs ainsi que des stationnements sécurisés pour les cycles au droit de certains bâtiments administratifs
+- introduit le Forfait Mobilité Durable auprès des agents (200 € bruts annuels si l’agent pratique le vélo ou le covoiturage quotidiennement pour se rendre au travail)
+- pérennisé le télétravail à l’ensemble des postes éligibles, et mis à disposition des agents les outils informatiques adaptés (PC, cloud, VPN)
+
+Panneaux photovoltaïques sur le toit de l’usine d’eau potable de la Puya à Annecy
+
+# ATTEINDRE LES OBJECTIFS DE LA STRATÉGIE LUMIÈRE POUR L’ÉCLAIRAGE PUBLIC
+
+En matière de développement durable, les réalisations du Grand Annecy sur son patrimoine bâti ont été les suivantes :
+
+- Achèvement des travaux de rénovation du bâtiment sis au 6bis avenue des Îles et installation de la direction des ressources humaines, poursuite des travaux à l’EHPAD la Villa Romaine.
+- Mise en place de panneaux photovoltaïques en autoconsommation sur 5 bâtiments du Grand Annecy.
+- Amélioration du suivi et du pilotage des installations énergétiques par la mise en place de systèmes de Gestion Technique Centralisée (GTC).
+- Identification de travaux sur 7 bâtiments pour l’isolation des combles, planchers bas et réseaux hydrauliques.
+- Réalisation d’audits énergétiques au siège du Grand Annecy, pour les pépinières d’entreprises Galileo et Alb’espaces.
+- Recherche d’opportunités en faveur des énergies renouvelables, telles que le bois ou la géothermie, pour limiter notre dépendance à l’électricité et au gaz.
+
+# FORMALISER UNE POLITIQUE D’ACHAT ET DÉVELOPPER LES ACHATS DURABLES
+
+Un poste de coordinateur des achats a été créé afin de participer à l’optimisation et la sécurisation des achats et d’impulser une dynamique d’achats durables. Parmi les réalisations 2021 :
+
+- Actions de sensibilisation à l’achat public durable auprès d’une cinquantaine d’acheteurs-prescripteurs afin de professionnaliser les agents intervenants dans le processus achat.
+- Accompagnement de certains services à l’intégration du développement durable dans leurs achats.
+- Intégration de la performance énergétique dans la supervision de ses usines d’eau potable.
+
+Fin 2021, le Grand Annecy a lancé l’organisation de Fresques du climat dans les mairies des communes de l’agglomération. 17 conseils municipaux ont ainsi été formés aux causes et enjeux du dérèglement climatique entre décembre 2021 et juin 2022.
+
+Le Grand Annecy décline également auprès des communes le dispositif « 1 habitant 1 arbre : 1351 arbres plantés fin 2022 » (action 54 du PACTE).
+
+# GÉRER LE PATRIMOINE BÂTI DU GRAND ANNECY EN CONTINUANT À LE RÉNOVER
+
+Les principales mesures ont porté sur le report de la saison de chauffe, le maintien de la température maximale à 19°C, le télétravail obligatoire le vendredi, l’acquisition d’un nouveau véhicule électrique partagé, la remise en état de la flotte de vélos et la réduction des horaires d’ouverture de la station du Semnoz.
+
+Les résultats de ce plan de sobriété seront communiqués dans le rapport 2023.
+
+# PLAN ALIMENTAIRE TERRITORIAL
+
+Les instances de pilotage de ce plan ont été installées, le diagnostic et l’élaboration du plan d’action ont été lancés avec l’aide d’un bureau d’études spécialisé. Le plan d’action devrait être adopté en 2023.
+
+La facture énergétique établie en 2015 sera mise à jour en 2023.
+
+Le Grand Annecy s’est également engagé dans la création d’un espace-test agricole consacré au maraîchage. Un espace-test.
+
+# agricole consiste à créer les conditions pour entreprendre l’activité
+
+dans le cadre de la réalisation d’une interconnexion avec la
+
+- En faveur des agents du Grand Annecy, administrations, Communauté de Communes du Pays de Cruseilles (CCPC)
+- Construction des stations de pompage des Rebattes et des Machurettes à Épagny Metz-Tessy dans le cadre de la réalisation de l’interconnexion avec la CCPC
+- Mise en place d’un nouvel outil métier SIG
+- Rendement du réseau d’eau potable supérieur à 80% depuis 2020
+
+Le Grand Annecy a confié une étude de faisabilité à RENETA (réseau national des espaces test agricoles) en avril 2021, le diagnostic et les orientations ont été validés par le Comité de pilotage. Celui-ci a acté en 2022 les principes suivants pour l’espace test :
+
+- Un lieu test permanent : un outil de production sur un seul lieu, permettant l’accueil de plusieurs maraîchers et la mutualisation de matériels et bâtiments. Des lieux éphémères où le foncier est mis à disposition par le porteur de projet pourront être inclus.
+- Le maraîchage sera la production principale
+- Concernant le foncier, le travail se poursuit avec la commune de Épagny Metz-Tessy
+
+Par ailleurs, une conférence sur les habitudes alimentaires des Français par un sociologue a été organisée le 22 septembre 2021 (70 personnes réunies).
+
+# METTRE EN ŒUVRE LES ACTIONS DU PLPDMA* ET DU CODEC**
+
+En 2021, la Direction de la Valorisation des déchets a collecté 69 963 tonnes en porte-à-porte et traité 34 324 tonnes en déchèterie dont 10 875 tonnes de végétaux. La production de déchets par habitant est en baisse : -14 % par rapport à 2010, année de référence du Programme local de prévention des déchets ménagers assimilés.
+
+# Concernant l’Économie Circulaire (CODEC**)
+
+- Le Grand Annecy a généralisé le broyage à domicile, expérimenté sur les secteurs de Fillière, du pays d’Alby et des rives du lac.
+- Le Grand Annecy a expérimenté dès 2021, avec l’éco-organisme Ecologic, la mise en place de la filière REP (responsabilité élargie des producteurs) Articles de Sport et Loisirs sur 4 déchèteries, avant de la généraliser.
+
+# COMMUNIQUER ET SENSIBILISER
+
+Comme évoqué à l’action n°2, le Grand Annecy a organisé deux défis « Déclics » et organisé une grande Consult’action pour accélérer les changements de comportements. Un plan de communication « PACTE pour le climat » a été élaboré.
+
+Le Grand Annecy a également lancé en 2021 les Assises de l’eau. Elles ont réuni l’ensemble des acteurs du « grand cycle de l’eau », mais aussi des représentants des milieux économiques, des associations et des citoyens intéressés par cette thématique pour réfléchir ensemble à l’avenir de l’eau sur notre territoire, les moyens de la préserver et de garantir durablement l’alimentation en eau potable.
+
+L’Espace Citoyen a été saisi pour travailler plus précisément sur la mobilisation à long terme du territoire et de ses habitants sur la question de l’eau.
+
+Ces assises ont débouché sur l’édition d’un dépliant, incitant à limiter ses consommations, à la mise en place d’un groupe de travail sur la récupération de l’eau de pluie, l’organisation d’une journée de l’eau en septembre 2022, au lancement de la campagne « ici commence le lac » et à la mise en place d’un dispositif pour concevoir des outils de sensibilisation et de mobilisation du grand public.
+
+# POURSUIVRE L’AMÉLIORATION DU RÉSEAU D’EAU POTABLE
+
+Le Grand Annecy a adopté son Schéma directeur d’alimentation en eau potable : un programme de travaux sectorisé d’un montant global de 50 millions d’euros a été défini à partir de cette feuille de route.
+
+Par ailleurs, le service de l’eau a réalisé de nombreux travaux pour l’entretien, l’amélioration et l’extension du réseau d’eau potable :
+
+- La mise en place de la conduite du captage Nant de l’Adieu, route des Bauges à Seynod
+- Le renouvellement/renforcement réseau route des Provinces, à Villaz
+- Le renouvellement de réseau chemin de Crêt Vial, à Alby-sur-Chéran
+- La construction de l’interconnexion des réseaux d’eau potable entre les communes de Cusy et Saint-Ours (Grand Lac)
+- Le renforcement du réseau route de Bois Vial, 2 tranche, à Alby-sur-Chéran
+- Mise en service de l’usine de production d’eau potable de La Tour rénovée à Annecy
+- Création de près de 6 km de réseau à Épagny Metz-Tessy
+
+# Construction d’un nouveau réservoir d’eau potable à Ferrières
+
+*Programme local de prévention des déchets ménagers assimilés
+
+**Contrat d’objectif déchets économie circulaire
+
+# AXE 1
+
+# ORIENTATION 3
+
+Favoriser l’engagement des acteurs économiques
+
+Le Grand Annecy accompagne les entreprises dans la transition écologique et soutient leurs initiatives.
+
+- Une veille juridique, informationnelle, au sujet des subventions ou appels à projets en matière d’environnement
+- Des évènements de réseautage transversaux pour renforcer les synergies entre les acteurs socio-économiques du territoire.
+
+# RATIFIER LA CHARTE QUALITÉ DE L’AIR AVEC LE BTP 74 ET LES DONNEURS D’ORDRE PUBLIC
+
+Les chantiers du BTP sont à l’origine de 6% des émissions de particules fines de type PM10 et de 8% des émissions d’oxydes d’azote sur le territoire du Grand Annecy.
+
+Pour réduire ces émissions et mobiliser l’ensemble des acteurs concernés, le Grand Annecy a mis en place une charte « Chantiers Air Climat ». Celle-ci a été élaborée en 2021 avec le soutien technique et financier de l’ADEME.
+
+En 2021, le Grand Annecy et ses partenaires du collectif Agir ensemble, parmi lesquels le CROUS et l’Université Savoie Mont-Blanc (USMB), ont reconduit l’alliance locale en faveur de « campus durable en villes durables », rejoignant une vingtaine de territoires français pour mobiliser les étudiants et les personnels du campus dans la transition écologique et énergétique.
+
+Après une phase de diagnostic et de benchmark, 3 ateliers réunissant maîtres d’ouvrage et entreprises du BTP ont été réunis en septembre et octobre 2021 afin de travailler sur les sujets de la commande publique, de l’intégration de la qualité de l’air dès la conception du chantier, et du transport et des mouvements de terre. Ces groupes de travail ont permis de définir le contenu de la charte et des outils à développer.
+
+En parallèle, plusieurs chantiers pilotes du territoire ont été ciblés pour permettre un retour d’expérience : chantier d’eau potable à Montmin, Pré Billy, curage de l’hôtel de ville d’Annecy, chantier des Trésums, construction de logements à Duingt.
+
+La charte a été adoptée en février 2022, et commence à être mise en œuvre par plusieurs maîtres d’ouvrage.
+
+# FAIRE DU CAMPUS UNIVERSITAIRE UN PROTOTYPE ET UNE VITRINE DE NOTRE SAVOIR-FAIRE EN MATIÈRE DE DÉVELOPPEMENT DURABLE
+
+Cette démarche a permis d’impulser la création d’un plan de mobilité de l’université, suivi et accompagné par le Grand Annecy. Un Schéma d’aménagement du campus est en cours d’élaboration, dans l’objectif d’en faire une vitrine de l’exemplarité environnementale du Grand Annecy. Il associe l’USMB, le CROUS, l’Etat, le Rectorat et la Ville d’Annecy.
+
+Le pôle entrepreneuriat du Grand Annecy a préparé l’ouverture de Quai 225, centre de ressources et d’expertise pour la transition environnementale des entreprises à Saint-Jorioz. Les travaux de réhabilitation et de mise aux normes du bâtiment réalisés pendant l’année 2020 se sont poursuivis en 2021. Les locaux constitués de 6 bureaux, 2 salles de réunion, 1 espace de coworking et d’un espace repas ont été aménagés pour accueillir les animations et les entrepreneurs.
+
+L’aménagement intérieur du bâtiment a été l’occasion du 1er marché écoresponsable de l’agglomération, primé au prix de l’achat public lors du salon des Maires de 2022.
+
+Les fabricants de mobilier ont été sélectionnés sur leur capacité à fournir des meubles en bois surcyclé, à réduire au maximum leur impact environnemental (emballage, transport) ainsi qu’assurer un SAV et la fin de vie des items. Pour aller plus loin, l’équipement (vaisselle, décoration) a été acheté chez les acteurs de la seconde main du territoire.
+
+L’inauguration a eu lieu le 22 juin 2022, la première promotion d’entreprises à impact positif sur l’environnement a été installée, et un programme d’animations régulièrement mis à jour est en place.
+
+L’objectif de Quai 225 est d’accompagner les entreprises du territoire dans leur mutation environnementale et de catalyser les initiatives des acteurs économiques en faveur de la transition écologique. Quai 225, prodigue des conseils et propose différents services tels que :
+
+- L’accompagnement et l’hébergement clé en main d’entreprises en création ou qui ont moins de 3 ans d’existence
+- La mise à disposition du bâtiment dans un cadre d’exception pour les évènements environnementaux des partenaires
+- L’organisation d’évènements de sensibilisation aux enjeux environnementaux pour les entreprises du territoire : comment mieux trier ses déchets en entreprise et répondre aux réglementations environnementales
+
+# Site de compostage partagé
+
+(CROUS d’Annecy-le-Vieux)
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 2 : MAITRISER NOS CONSOMMATIONS D’ÉNERGIE
+
+# Contribuer à la transition par l’aménagement du territoire
+
+# ZAC de Pré Billy à Pringy
+
+# INTÉGRER LA THÉMATIQUE CLIMAT AIR ÉNERGIE DANS LE PLUIHM BIOCLIMATIQUE
+
+Le Grand Annecy a adopté à l’unanimité le 25 mars 2021 une délibération qui intègre la dimension « bioclimatique » dans le Plan Local de l’Urbanisme Intercommunal en cours d’élaboration. Le Grand Annecy a ainsi affirmé la volonté communautaire de tendre vers plus de sobriété et d’inscrire les enjeux climatiques et environnementaux de manière plus ambitieuse dans le PLUI. Selon les termes de cette délibération (DEL-2021-59), le PLUI Habitat Mobilité Bioclimatique du Grand Annecy en cours d’élaboration, est un plan qui :
+
+- S’articule autour du vivant et du climat ;
+- Prend en compte les vulnérabilités du territoire, lutte contre le changement climatique et s’adapte à ses conséquences ;
+- Interroge l’urbanisme et l’aménagement à travers le prisme de l’urgence climatique ;
+- Organise le territoire pour aller, à terme, jusqu’à une société sobre en carbone ;
+- Repense les modèles urbains d’aménagement pour rapprocher emplois, services et commerces des habitants, protéger fortement les terres naturelles, limiter la ségrégation spatiale, réduire les déplacements et leurs coûts, augmenter le stockage de carbone dans le sol ;
+- Limite l’érosion de la biodiversité ;
+- Conduit à consommer autrement, localement avec des matériaux biosourcés et bas carbone;
+- Permet à la fois de réduire les mobilités (proximité) et de développer d’autres formes de mobilités, plus propres et moins consommatrices d’espace ;
+- Intègre l’objectif de « zéro artificialisation nette » en diminuant nettement la consommation foncière nécessaire à l’organisation du territoire ;
+- Prend en compte la crise sanitaire actuelle et celles qui pourraient advenir.
+
+# PENSER AUTREMENT LES SERVICES DU QUOTIDIEN SUR TOUT LE TERRITOIRE ET EN MILIEU RURAL
+
+Trois relais territoriaux ont été mis en place dès le 1er janvier 2017, à la suite de la création du Grand Annecy :
+
+- Relais d’Alby-sur-Chéran : situé au Pôle Culturel et Sportif du Pays d’Alby
+- Relais de Fillière : situé dans le bâtiment de la mairie de Fillière
+- Relais de Saint-Jorioz : situé sur la rive gauche du lac, à Saint-Jorioz
+
+L’objectif est d’apporter un service public de proximité sur ces 3 secteurs excentrés du siège du Grand Annecy. En assurant un rôle de terrain et un lien direct avec les habitants et les communes, les relais participent à la promotion des nombreuses politiques publiques portées par l’agglomération. Ils accompagnent les usagers et renforcent l’ancrage territorial du Grand Annecy.
+
+Les points forts pour les services du quotidien au sein des relais territoriaux :
+
+- Des sollicitations liées à l’action environnementale en hausse, en adéquation avec les objectifs du PACTE pour le climat de notre agglomération (ex : demandes de primes fonds air bois, questions relatives aux eaux pluviales, à la lutte contre les chenilles processionnaires...).
+- Une collaboration efficace avec les différents services, supervisée par la coordinatrice et permettant une instruction rapide des demandes des usagers et des partenaires du territoire.
+- La mise en place d’une réflexion collégiale au sein de la direction pour apporter un « nouvel élan » et s’adapter aux évolutions en cours : il s’agit de déterminer comment rendre ce service de proximité plus efficient, en associant les maires des communes à la réflexion.
+
+# AMÉNAGER DE NOUVEAUX QUARTIERS AVEC DES PRESCRIPTIONS ENVIRONNEMENTALES FORTES POUR UN URBANISME FAVORABLE À LA SANTÉ
+
+Le Grand Annecy est aménageur de deux Zones d’Aménagement Concertées (ZAC), dont une est en cours de construction (Pré-Billy sur la commune d’Annecy) et l’autre en cours de montage (Bognon à Thorens-Glières). Depuis 2021, l’opération d’aménagement de la zone artisanale de Chez Chamoux à Chavanod est accompagnée pour prendre en compte au mieux la transition énergétique. À la suite des études et décisions des élus, l’aménagement de la zone artisanale aura une approche bioclimatique, n’utilisera pas d’énergie fossile pour le chauffage et toutes les toitures produiront de l’énergie solaire photovoltaïque.
+
+Les bâtiments seront raccordés à un réseau de chaleur géothermique (la décision a été prise de ne pas étendre le réseau gaz). Des panneaux photovoltaïques seront installés sur les bâtiments.
+
+# LIMITER L’ÉTALEMENT URBAIN
+
+Cette problématique est traitée dans l’écriture du Plan local de l’urbanisme intercommunal habitat mobilité bioclimatique qui intègre l’objectif de « zéro artificialisation nette » en diminuant nettement la consommation foncière nécessaire à l’organisation du territoire.
+
+Les enjeux de l’opération d’aménagement « Thorens-Glières centre » dépassent le cadre strictement communal, notamment par sa contribution à l’ambition politique intercommunale :
+
+- Structurer une “agglomération archipel” avec des pôles de vie, de logements et de services bien reliés entre eux, par la maîtrise de l’urbanisation, la construction économe en ressources et l’adaptation de l’usage des équipements ou services, notamment en les mutualisant ;
+- Réaliser d’ici 2030, un tiers des opérations de logements collectifs dans des éco-quartiers initiés par la puissance publique ;
+- Préparer les grands projets d’aménagement et d’urbanisme en concertation avec les habitants.
+
+# ENGAGER LA RÉALISATION DU RÉSEAU DE TRANSPORT
+
+CAPA26B parvenait pas à être absorbée, et dans le but de faire circuler davantage les vélos, le Grand Annecy a modifié les conditions d’utilisation : hausse du tarif qui fonctionne par part fiscale reconduction limitée à 2 ans maximum, 1 vélo par foyer. Un effort important est déployé pour prendre en compte la demande touristique : tour du lac, stationnement saisonnier, promotion ciblée.
+
+L’année 2021 a marqué le choix du scénario pour le projet de transport en commun en site propre intégral (TCSPI) et l’adoption par le Conseil Communautaire, en novembre 2021, des principes de réalisation du futur réseau. 2022 a été consacré aux premières études de faisabilité. Ces futures lignes de transport collectif devraient améliorer significativement la desserte et la performance du service.
+
+# Vélos en libre-service (VLS)
+
+En 2021, le Grand Annecy a expérimenté 10 stations Vélos en libre-service (Vélonecy 60 minutes) autour du lac chacune accompagnées d’un agent d’accueil, soit 200 vélos mis à disposition pendant 2 mois. L’opération a connu un fort succès qui a conduit au maintien de 5 stations à l’hiver 2021-2022.
+
+À partir de juin 2022, le système de VLS est passé en « free floating » organisé avec des racks et des poteaux. Des cadenas connectés ont été achetés avec un système de QR code. Fin 2022, 40 stations sont actives ; 51 au plus fort de l’été, et couvrent toute l’agglomération.
+
+# Favoriser les modes actifs
+
+En termes de fréquentation, 41 754 locations totales avec environ 5 965 locations moyennes mensuelles ont été enregistrées en 2021. En 2022, les VLS ont suscité 123 084 locations totales avec 10 257 locations moyennes mensuelles. Les GES économisés grâce aux VLS sont estimés à 30 600 kg en 2021 et 49 209 kg en 2022.
+
+# Vélos en libre-service
+
+«Vélonecy box» : consigne à vélos sécurisée. Le Grand Annecy a déployé 10 box et consignes de stationnements sécurisés « Vélonecy box » sur le territoire. Ces abris à vélos, situés dans certains parkings publics en structures ou aménagés sur la voirie, sont accessibles en libre-service 7 jours sur 7 sur abonnement.
+
+# Aides à l’achat de vélos pour les particuliers
+
+Le Grand Annecy propose des aides aux particuliers pour l’achat de vélo, vélo cargo, VAE s’élevant jusqu’à 600 €, et 1 000 € pour les personnes en situation de handicap. Pour piloter et suivre ce déploiement le Grand Annecy s’appuie sur l’outil Géovélo pour l’animation et la collecte des données.
+
+# Soutenir le développement des plans de mobilité des entreprises
+
+En 2021, le Grand Annecy a lancé la 2 session d’accompagnement de 18 établissements dans l’élaboration de leur Plan de mobilité avec le soutien technique de l’Agence Écomobilité Savoie Mont-Blanc.
+
+Le bilan réalisé en 2022 indique un potentiel favorable à l’adoption de pratiques de mobilité domicile-travail plus vertueuses :
+
+- 54% des salariés impliqués dans cette 2e session de plans de mobilité des entreprises résident sur le Grand Annecy
+- 1 salarié sur 2 habite à moins de 10km de son lieu de travail
+- 77% d’entre eux effectuent leurs déplacements domicile-travail en voiture, 11% en modes actifs, 5% en covoiturage (lorsque les horaires de travail sont fixes ou en équipe) et 4% en bus.
+
+Le Grand Annecy compte aujourd’hui 2800 vélos à assistance électriques (VAE). Devant la liste d’attente importante qui ne.
+
+# ORGANISER LES LIVRAISONS ET LES FLUX DE MARCHANDISES
+
+Plus de 130 000 mouvements de marchandises sont générés chaque semaine sur le territoire par environ 35 000 établissements, selon les estimations du modèle FRETURB en 2019 pour le Plan de mobilité. L’axe « Organiser les livraisons et les flux de marchandises » est inscrit dans le Plan de Mobilité 2030 du Grand Annecy. Il comprend les actions suivantes :
+
+- Encourager le déploiement de flottes de véhicules «propres» et silencieux
+- Hiérarchiser et localiser les espaces logistiques nécessaires au territoire
+- Mieux accueillir les véhicules de livraison sur l’espace public
+- Définir le réseau d’itinéraires poids lourds à l’échelle du territoire
+
+En 2021, le Grand Annecy est lauréat de l’appel à projet ECOMGA et rejoint en 2022 le programme national INTERLUD, en vue d’établir un plan d’action en faveur de la logistique urbaine durable, et de comprendre les impacts environnementaux locaux du e-commerce.
+
+# DÉVELOPPER LE MAAS OU SERVICE DE MOBILITÉ INTÉGRÉ
+
+Par ailleurs, dans le cadre du programme « Petites Villes de demain » pour les communes d’Alby-sur-Chéran, Fillière et Groisy, le Grand Annecy entend favoriser le renforcement de centralités propices à réduire ou éviter certains déplacements pendulaires journaliers. Le Grand Annecy a également lancé une étude sur les tiers-lieux, afin d’évaluer la demande et l’intérêt de lieux pouvant accueillir certaines activités salariées, indépendantes, de loisir ou familiales dans ces trois communes.
+
+Le développement du MaaS (Mobility as a Service), ou service de mobilité intégrée, est une action prévue par le Plan de mobilité 2030 du Grand Annecy. Le MaaS vise à proposer une solution d’information et d’accès aux services de mobilité qui allie les outils numériques (plateformes, applications mobiles) et les infrastructures physiques. L’objectif recherché avec le MaaS est de créer une plateforme qui permette à l’usager de choisir le mode de déplacement décarboné le plus efficace tout en lui en facilitant l’accès.
+
+# FAIRE DU GRAND ANNECY UN LIEU D’EXPÉRIMENTATION DES NOUVELLES MOBILITÉS BASÉES SUR LES ÉNERGIES RENOUVELABLES ET LES TECHNOLOGIES NUMÉRIQUES
+
+Fin 2020, le Grand Annecy a répondu à un appel à manifestations d’intérêt (AMI) de l’ADEME « étude de faisabilité d’exploitation des bus électriques à destination des collectivités ». En 2021, SETEC a accompagné l’agglomération par la réalisation d’une étude prenant en compte les contraintes d’exploitation actuelles, la topologie du territoire (dénivelé, longueur). Le résultat de l’étude a été de confirmer la possibilité d’exploitation des lignes du réseau actuel avec des bus électriques à batteries.
+
+En parallèle, le Grand Annecy a testé plusieurs autobus en conditions réelles avec des passagers sur 1 ou 2 semaines sur la ligne Rythmo1. L’expérimentation est plus favorable que les conclusions de l’étude SETEC, mais doivent être confirmées sur une durée plus longue, en prenant en compte le chaud (impact climatisation) et le froid sur l’autonomie des batteries. L’étude SETEC conduit à réaliser une expérimentation sur une longue durée.
+
+# RÉDUIRE LES BESOINS EN DÉPLACEMENT
+
+En 2021, le Grand Annecy a pérennisé le télétravail à l’ensemble de ses agents qui occupent des postes éligibles. Les outils numériques indispensables au déploiement du télétravail ont été mis à disposition de ces agents (diffusion de PC portables, accès aux serveurs à distance par VPN et sur le cloud).
+
+Le Plan de mobilité 2030 contient un axe « Agir pour la santé grâce à la mobilité active », qui se décline autour des actions suivantes :
+
+- Engager un travail partenarial avec les professionnels de la santé pour promouvoir et expérimenter les modes actifs
+- Créer un réseau d’ambassadeurs de la mobilité
+
+Cette action sera traitée dans le cadre de la préparation de la Zone à faibles émissions mobilité et des réflexions sur la logistique urbaine (actions n°29 et 35 du PACTE).
+
+Le Grand Annecy avait entamé dès 2019 une étude d’opportunité volontaire en faveur d’une ZFE, dans le cadre d’une convention avec l’ADEME. Une enquête par relevés de plaques d’immatriculation avait été réalisée en 2019 pour connaître le parc dynamique. Cette enquête a permis de dresser un état du parc des véhicules qui circulent dans l’agglomération. Le travail de définition des scénarios qui seront proposés à la concertation est en cours.
+
+L’année 2022 a été mise à profit pour mener une enquête portant sur la connaissance, l’acceptabilité et les conditions de réussite d’une ZFE dans le Grand Annecy, auprès de 80 professionnels et de 500 habitants. Les résultats de cette enquête viennent nourrir l’élaboration des scénarios de ZFE-m.
+
+# Le secteur économique représentait en 2017 13 % des émissions
+
+de particules fines, 10,15 % des oxydes d’azote et 32 % des émissions de composés organiques volatiles. Les projets éligibles sont ceux qui permettent d’aller au-delà de la mise en conformité réglementaire.
+
+# Accélérer la transition vers des logements sobres en énergie
+
+CHANGEZ VOTRE APPAREIL DE CHAUFFAGE AU BOIS ET BÉNÉFICIEZ DE LA PRIME DE 1400€* FONDS AIR BOIS
+
+Plus d’infos sur www.grandannecy.fr
+
+* sous réserve de conditions de ressources
+
+En 2021 et 2022, 4 projets ont été accompagnés :
+
+- FUSALP (raccordement au réseau de chaleur urbaine de Novel, 7 400 € d’aide)
+- Adjie Création (filtre à particules, 390 € d’aide)
+- GAEC Le Vuaz (remplacement d’une chaudière bois non performante, 56 000 € d’aide)
+- Compagnie des Bateaux (remplacement des moteurs thermiques de la flotte de bateaux sur le lac d’Annecy par des moteurs électriques, 110 000 € d’aide)
+
+# MASSIFIER LA RÉNOVATION DES LOGEMENTS
+
+En 2021, le Grand Annecy a accompagné l’amélioration du parc privé de logements à travers le dispositif « J’éco-rénove » :
+
+|NATURE DU DOSSIER|ACCOMPAGNÉS|SUBVENTIONNÉS|
+|---|---|---|
+|Adaptation des logements au vieillissement et au handicap|75|62|
+|Rénovation énergétique de maisons|154|57|
+|Conventionnement (offre locative loyer encadré)|13|13|
+|Habitat indigne|1|0|
+|Rénovation énergétique de copropriétés|230 copropriétés (7 800 logements)|7 copropriétés (280 logements)|
+
+* Prime forfaitaire sous réserve que l’aide ne dépasse pas 50% du montant du matériel et de la pose TTC
+
+En 2021-2022, la rénovation énergétique de l’habitat avec « J’écorénove mon logement » est montée en charge. Le Grand Annecy pilote en interne un dispositif d’accompagnement des particuliers à la rénovation énergétique de leur logement.
+
+Au total, le Grand Annecy a attribué 9 M€ de subventions à la rénovation énergétique des logements. L’objectif est de réaliser plus de 35% de gains énergétiques.
+
+# AIDER AU RENOUVELLEMENT DES APPAREILS DE CHAUFFAGE NON PERFORMANTS ET SUPPRIMER LE FUEL POUR DES CHAUFFAGES PERFORMANTS ENR
+
+Vis-à-vis des acteurs économiques, le fonds air entreprises, vis-à-vis des particuliers, le dispositif du fonds air bois initié en 2018 a poursuivi son déploiement en 2021 et 2022 sur le territoire du Grand Annecy, avec le soutien de l’ADEME et du Conseil départemental de la Haute-Savoie.
+
+Les polluants ciblés sont les particules fines (PM10 et PM2,5), les oxydes d’azote (NOx) et les composés organiques volatils non méthaniques (COVNM).
+
+# AXE 2
+
+# ORIENTATION 7
+
+# Atténuer les impacts du secteur économique
+
+Le Grand Annecy s’engage pour un tourisme durable
+
+# MASSIFIER LA RÉNOVATION DU TERTIAIRE
+
+# ÉLABORER UNE CHARTE D’ACCUEIL TOURISTIQUE ÉCORESPONSABLE EN COMMENÇANT AVEC LES ACTEURS DU TOURISME D’AFFAIRES
+
+La mise en œuvre de cette action s’appuiera sur Quai 225.
+
+# ACCOMPAGNER LES INDUSTRIELS ET LES TPE/PME DANS LES ÉCONOMIES D’ÉNERGIE ET LA PRODUCTION D’ENR EN LIEN AVEC L’ÉCONOMIE CIRCULAIRE
+
+# DEVENIR UNE DESTINATION TOURISTIQUE DURABLE
+
+Cette action s’appuie sur Quai 225, centre de ressources et lieu totem pour la transition écologique des entreprises, pour mobiliser et accompagner les TPE/PME.
+
+Dans le cadre de la stratégie économique délibérée en 2021 (DEL-21-220), le Grand Annecy a élaboré une stratégie touristique durable prenant en compte de manière intégrée les impacts du tourisme sur les ressources naturelles et les écosystèmes (pression sur la ressource locale en eau), en matière d’émissions de GES (notamment liées au transport), et l’accès aux activités touristiques pour tous.
+
+Le 5 octobre 2021, une conférence regroupant près de 200 représentants d’entreprises a été organisée à Annecy. Elle a permis de faire des visites d’entreprises engagées dans la transition énergétique et de sensibiliser les entreprises du territoire. Cette conférence était la première étape d’une action de communication qui s’est ensuite mise en place pour expliquer aux entreprises tous les dispositifs existants pour les accompagner vers la transition énergétique. L’objectif est de sensibiliser le plus d’entreprises possible et d’accompagner plus spécifiquement une vingtaine d’entre elles.
+
+# ACCOMPAGNER LES CAMPINGS ET LES COMMERCES DANS LA TRANSITION
+
+Cette action n’a pas encore débuté.
+
+# VALORISER LES RESSOURCES DU TERRITOIRE
+
+# RÉALISATIONS 2021-2022 POUR L’AXE 3 :
+
+# DÉVELOPPER ET STRUCTURER LA FILIÈRE BOIS
+
+En 2021, le Grand Annecy a créé le service Biodiversité, espaces naturels et forêts et grand cycle de l’eau. Une série de partenariats a été mise en œuvre afin de structurer cette action. Ainsi, le Grand Annecy a :
+
+- Intégré un groupe projet du Pôle métropolitain visant à structurer et développer la filière bois. Ce groupe projet associe les professionnels de la filière du territoire du Pôle Métropolitain et les partenaires institutionnels en s’appuyant sur le Pôle Excellence Bois de Rumilly. 42 personnes se sont mobilisées pour participer aux travaux de ce groupe (3 réunions) et proposer des pistes d’actions concrètes.
+- Adhéré au dispositif Sylv’ACCTES qui permet aux entreprises et aux collectivités d’agir de façon responsable dans les massifs forestiers de la région Auvergne-Rhône-Alpes, notamment en facilitant la mobilisation de moyens financiers.
+- Conventionné avec le centre régional de la propriété forestière (CRPF) en vue de contribuer à la réorganisation du foncier pour une amélioration des usages en fonction des potentialités.
+
+Le Grand Annecy assure une veille foncière avec l’outil vigifoncier de la Safer. Des visites de terrains en vente ont été organisées avec la Safer. La restructuration foncière de la vallée du Laudon se poursuit.
+
+De plus, dans le cadre d’un Contrat Territoires d’Industrie et de Transition Ecologique, le Grand Annecy a engagé une étude avec le CAUE sur la valorisation des déchets inertes : le projet VADEME pour la valorisation agronomique des déchets minéraux.
+
+Le diagnostic agricole du PLUi-HMB s’est poursuivi : repérage des exploitations, cartographie des bâtiments, suivi de la mission CASMB, participation aux ateliers des agriculteurs, contribution à la définition des espaces à enjeux agricoles.
+
+Le projet VADEME tend à favoriser l’écologie industrielle : mieux gérer les quantités croissantes de déchets issus des projets d’aménagement urbain, de la construction d’équipements et d’infrastructures sur notre territoire très dynamique, faciliter leur valorisation via le réemploi ou la création de terre végétale pour répondre aux besoins.
+
+Ce projet est mené dans le cadre d’un programme Interreg France-Suisse. Il associe l’état de Genève et les intercommunalités d’Annemasse et de Saint Julien en Genevois.
+
+# PRODUIRE ET DISTRIBUER LOCALEMENT DES PRODUITS ALIMENTAIRES DE QUALITÉ
+
+En 2021, un diagnostic a été élaboré sur les 3 territoires mettant en avant la problématique de la gestion des déchets inertes et la création de terres fertiles à partir de terres excavées.
+
+Par la délibération DEL-2021-40, le Grand Annecy a acté à l’unanimité le lancement officiel de la démarche « territorial » (PAT) du Grand Annecy. Le Grand Annecy a été labellisé PAT en émergence en juin 2021 et dispose de 3 ans pour élaborer un plan d’actions. Le diagnostic a été réalisé en 2022, en associant les acteurs du territoire.
+
+Le Grand Annecy s’est également engagé dans la création d’un espace-test agricole consacré au maraîchage (en lien avec l’action 13 : Rendre la restauration collective climato compatible). L’objectif visé est de 18% de produits biologiques dans la restauration collective.
+
+Le Grand Annecy a réalisé une étude de faisabilité (en partenariat avec RENETA) et défini les principes pour la création d’espaces test agricoles :
+
+- Un lieu test permanent : un outil de production sur un seul lieu, permettant l’accueil de plusieurs maraîchers et la mutualisation de matériels et bâtiments. Des lieux éphémères où le foncier est mis à disposition par le porteur de projet pourront être inclus.
+- Le maraichage sera la production principale.
+- Concernant le foncier, le travail se poursuit avec la commune de Épagny Metz-Tessy.
+
+Le bois, une ressource durable.
+
+# DÉVELOPPER LA PRODUCTION DE BIOGAZ
+
+Depuis avril 2022, le Grand Annecy met en œuvre ce dispositif en accompagnant les demandeurs.
+
+L’objectif est de produire 7 GWh d’énergie renouvelable sur le territoire en 3 ans. Le SDE montre que la production actuelle de biogaz atteint 19 GWh/an. Elle est assurée par 3 installations : l’usine du SILA (12 GWh en injection de biométhane), le GAEC de Gruffy (2,4 GWh en cogénération) et le GAEC de Groisy (4,2 GWh en cogénération). À ce jour, quatre projets sont engagés.
+
+Le gymnase de Saint Jorioz installe une chaufferie bois d’une puissance de 315 MWh, la Fédération Française de Ski à Meythet et les Haras d’Annecy investissent dans la géothermie pour une puissance de 64 MWh et 312 MWh et l’entreprise d’insertion Se Forest lance une étude de faisabilité géothermie. Une quinzaine d’autres projets sont en cours et le déploiement s’accélère avec une démarche active auprès des entreprises, s’appuyant sur le centre de ressources Quai 225 (voir action 18).
+
+# RÉALISER LE SCHÉMA DIRECTEUR DES ÉNERGIES DU TERRITOIRE
+
+Le Schéma directeur des énergies (SDE) est une démarche co-pilotée avec la ville d’Annecy. Cet outil permet de préciser les objectifs et les modalités du développement de la production d’énergie renouvelable et de récupération sur le territoire.
+
+En février 2022 le Grand Annecy a adopté son Schéma directeur des énergies, conjointement avec la Ville d’Annecy. Son élaboration est le fruit d’une démarche partenariale avec les acteurs du territoire, qui s’est déroulée sur l’ensemble de l’année 2021, réunissant plus de 180 personnes autour de 4 temps forts partenariaux et 8 ateliers de travail. Un appel à contributions a permis de collecter 67 contributions issues de 20 acteurs du territoire qui ont été prises en compte pour l’élaboration du schéma.
+
+Cet outil de planification fixe une feuille de route opérationnelle qui définit neuf projets phares à mettre en œuvre d’ici trois ans, explique les engagements des collectivités d’ici 2030 et présente trois dispositifs structurants à mettre en place pour accompagner les communes, les particuliers, les copropriétés et les entreprises.
+
+Il prévoit, notamment, de mobiliser 20% du potentiel solaire photovoltaïque du territoire ; doubler la production de biogaz par rapport à celle de 2019 avec 2 à 3 méthaniseurs supplémentaires ; de sortir du fioul en le substituant par des solutions individuelles et collectives d’énergies renouvelables ; et d’augmenter de 60% la production de chaleur par les réseaux de chaleur avec au minimum 60% d’énergie renouvelable et de récupération.
+
+# DÉVELOPPER LE SOLAIRE PHOTOVOLTAÏQUE ET THERMIQUE
+
+Afin de mettre en œuvre la meilleure façon de développer la méthanisation sur le territoire, un club méthaniseur a été initié fin 2022 avec toutes les parties prenantes de la filière. Le gisement restant étant principalement agricole, c’est par la création de collectifs d’agriculteurs ou la mobilisation directe d’exploitant de fermes importantes, ou GAEC, que le potentiel supplémentaire pourra être mobilisé.
+
+Un appel à initiative privée a été lancé le 24 juin 2022. L’objectif de cet appel sera de trouver des opérateurs qui seraient prêts à investir, à installer et gérer près de 2 MWc de panneaux photovoltaïques sur ces 11 sites. Fin 2022, le Grand Annecy a mis en place une aide financière pour le désamiantage de toiture en vue de l’installation de panneaux solaires thermiques et/ou photovoltaïques.
+
+# OPTIMISER LA PRODUCTION HYDROÉLECTRIQUE
+
+Sur le territoire du Grand Annecy, la production d’hydroélectricité depuis 2019 est comprise entre 51 et 57 GWh/an. Cette production provient de 8 sites répartis sur le Fier et le Thiou. Ces résultats sont cohérents avec les objectifs du PACTE pour le climat.
+
+Les travaux de remplacement et d’automatisation des vannes sur les canaux du Vassé et du Thiou, réalisés en 2021 et 2022, permettront d’améliorer les rendements des 3 centrales hydroélectriques situées sur le Thiou.
+
+# DÉVELOPPER LES RÉSEAUX DE CHALEUR ET DE FROID
+
+Pour accompagner les communes et les entreprises, le Grand Annecy a monté en 2021 un Contrat Chaleur Renouvelable avec l’ADEME. Il permet d’aider aux études et à l’investissement pour la mise en œuvre de réseaux de chaleur, de chaufferies bois, de pompes à chaleur géothermique ou de panneaux solaires thermiques. Une enveloppe de 3,5 M€ a été affectée à ce dispositif par l’ADEME.
+
+# A XE 4 REALISATIONS 2021-2022 POUR L’AXE 4 :
+
+# METTRE EN PLACE UNE STRATÉGIE OPÉRATIONNELLE D’ADAPTATION AU CHANGEMENT CLIMATIQUE
+
+# AXE 4
+
+# ORIENTATION 11
+
+Préserver durablement la santé en adaptant l’habitat, l’environnement urbain et les activités humaines au changement climatique
+
+# ORIENTATION 12
+
+Maîtriser et partager équitablement la ressource en eau
+
+# DÉSIMPERMÉABILISER ET VÉGÉTALISER LES SOLS
+
+En 2021, le service des eaux pluviales urbaines du Grand Annecy a renforcé le conseil aux porteurs de projet en matière de désimperméabilisation, afin d’impulser et d’accompagner cette dynamique au sein des communes sur les parkings, cours, voiries, toitures, etc.
+
+# VÉGÉTALISER : PLANTER DES ARBRES
+
+En 2021, le Grand Annecy a signé des conventions partenariales avec l’ONF, le CRPF, l’UFP74, Sylv’ACCTES, des pépiniéristes pour mettre en œuvre le dispositif « 250 000 arbres » et coordonner les actions de gestion multifonctionnelle et d’exploitation forestière. Ainsi, des plantations sont engagées sur les communes, en terrains forestiers publics comme privés et chez les habitants via la 1ère session de l’opération « 1 habitant 1 arbre ». Au total, plus de 8 500 arbres ont été plantés en 2021 et 11 070 en 2022.
+
+# VÉGÉTALISER LES TOITURES
+
+Cette action est liée à l’élaboration du PLUi-HMB, voir action 21 du PACTE. La végétalisation des toitures sera réalisée dans le cadre de la déclinaison intercommunale de cette action. Le lycée Baudelaire a bénéficié en premier lieu, permettant de désartificialiser 4000 m de surface au sol. En contrepartie, le site du lycée Baudelaire pourra servir de « vitrine ». Le démarrage des travaux est prévu début 2023.
+
+# GÉRER LA RESSOURCE EN EAU
+
+En 2021, les équipes et élus du Grand Annecy ont étudié le changement de tarification de l’eau potable dans le but d’encourager une consommation raisonnée de la ressource. Jusqu’à présent, deux dégressivités existaient, pour les agriculteurs (au-delà de 400 m3) et les gros consommateurs. Au 1er janvier 2022, la grille tarifaire a changé, passant d’un système dégressif à un système progressif : au-delà de 200 m3, le consommateur paiera plus cher. La transition se fera en douceur pour les gros consommateurs, avec une année de transition avant de supprimer la dégressivité.
+
+# PROMOUVOIR L’ÉCOCONCEPTION TOUT AZIMUT DANS L’AMÉNAGEMENT DU TERRITOIRE ET LA CONSTRUCTION
+
+Cette action est en lien avec le futur PLUi-HMB. Le Grand Annecy coordonne l’écriture d’un référentiel « Bien Construire » déclinable sur les 34 communes de l’agglomération. Une réunion de lancement a eu lieu en novembre 2022, des experts vont accompagner l’agglomération pour créer un outil simple qui permette d’entrer en discussion avec les promoteurs, et fournisse des indicateurs.
+
+# VALORISER L’EAU DE PLUIE
+
+L’objectif est de gérer de façon intégrée et vertueuse l’eau de pluie, là où elle tombe et de parvenir ensemble à rendre la ville perméable. Ces règles s’appliquent donc à tous, privés et publics, et à toute nouvelle surface construite ou aménagée : de la construction ou de l’agrandissement d’une maison individuelle au programme immobilier, en passant par la création d’une piste cyclable ou l’aménagement d’un quartier.
+
+# PRENDRE EN COMPTE L’ADAPTATION AU CHANGEMENT CLIMATIQUE DANS LES PROJETS D’AMÉNAGEMENT, Y COMPRIS LES ZAE ET LE RENOUVELLEMENT URBAIN
+
+Dans ce cadre, le pôle instruction accompagne les pétitionnaires dès l’amont de leur projet. En 2021, 1 100 avis ont été rendus dans le cadre des demandes d’urbanisme afin de promouvoir et de contrôler le respect de ces nouvelles règles. L’adaptation au changement climatique sera un volet du PLUi-HMB.
+
+# Usine de la Tour : production d’eau potable
+
+Parallèlement, le schéma directeur de l’eau potable établit une vision prospective globale du patrimoine, des besoins et ressources en eau ; détermine des solutions aux problématiques quantitatives, qualitatives, de sécurité sanitaire et de mise aux normes règlementaires et fournit un outil de programmation et de priorisation des opérations.
+
+# ADAPTER LA GESTION DE L’EAU POUR L’AGRICULTURE
+
+# Axe 4
+
+# Orientation 13
+
+Le schéma prévoit un programme de travaux estimé à 50 millions d’euros HT, avec un objectif de réalisation en 10 ans. Il comprend en particulier : la construction de 5 réservoirs structurants ou le renforcement de 100 km de conduites d’interconnexion entre les territoires ; le renforcement des traitements de 2 sites ; la création de production d’eau potable.
+
+Dans le cadre des groupes de travail avec les agriculteurs réunis en 2021 avec la CASMB (Chambre d’Agriculture Savoie Mont-Blanc), les enjeux environnementaux (adaptation, séquestration du carbone, partage de l’eau, méthanisation, etc.) ont été pris en compte dans les diagnostics d’exploitations.
+
+Le travail initié par le Grand Annecy avec les agriculteurs vise à les aider à diminuer leur consommation d’eau, un projet de convention est en préparation.
+
+# AMÉLIORER LES DISPOSITIFS DE GESTION DU LAC ET ADAPTER LES USAGES AUX NIVEAUX DU LAC
+
+En 2021, le Grand Annecy a sollicité une subvention de l’Agence de l’eau et du Département de Haute-Savoie dans le cadre du Contrat de bassin Fier et Lac, en vue de réaliser une étude sur le lac. Cette étude, intitulée « évaluation de l’impact du changement climatique sur la quantité des eaux mobilisables dans le Lac d’Annecy et définition des conditions d’exploitation pour l’alimentation en eau potable » est en cours de réalisation.
+
+Cette action reste à développer.
+
+# APPROFONDIR LA CONNAISSANCE DE LA VULNÉRABILITÉ DU TERRITOIRE
+
+En 2021, le Grand Annecy a poursuivi les travaux sur la vulnérabilité du territoire, en lien avec l’Agence alpine des territoires (AGATE). Son partenaire le Centre régional de la propriété forestière propose de réaliser une étude de vulnérabilité de la forêt. Dans le cadre du PLUi-HMB, l’état des lieux prend en compte les impacts environnementaux.
+
+Une modélisation thermographique a été réalisée avec des chercheurs de l’école des mines permettant de disposer d’une cartographie des îlots de chaleur pour identifier les espaces à traiter en priorité. Cet outil permettra également de modéliser l’effet d’aménagements urbains sur les températures avant de les réaliser.
+
+# METTRE À JOUR LES POLITIQUES PUBLIQUES DE GESTION DU RISQUE EN INTÉGRANT LE NOUVEAU RÉGIME CLIMATIQUE
+
+La forêt est une ressource contre les risques, elle participe notamment à limiter les éboulements. Le Grand Annecy travaille avec ses partenaires :
+
+- le Parc naturel régional du massif des Bauges, mobilisé pour éviter la disparition de l’épicéa due au stress hydrique, et pour le replanter lorsque la prolifération de champignons conduit à des coupes sèches
+- l’Office national des forêts pour un projet de diagnostic de la forêt au regard du risque incendie
+- le Centre régional de la propriété forestière sur les parcelles privées.
+
+Le Grand Annecy intervient aujourd’hui à travers des financements : environ 100 000 € par an sur la forêt.
+
+Sur le territoire du Grand Annecy, le risque lié aux crues est relativement modéré comparativement au territoire amont de la vallée de Thônes. Le SILA est en charge de la compétence Gestion des milieux aquatiques et prévention des inondations (GEMAPI).
+
+Lac d’Annecy - été 2018 (date à vérifier)
+
+©Rémi MASSON
+
+©Quentin Trillot, Ville d’Annecy
+
+# AXE 4
+
+# ORIENTATION 14
+
+Protéger les écosystèmes fragilisés par les pressions humaines et le changement climatique pour favoriser la séquestration carbone.
+
+Le Grand Annecy a immédiatement initié des actions sous sa maîtrise d’ouvrage, en concertation avec de nombreux partenaires. Ainsi, fin 2022 sont engagés l’élaboration des plans de gestion du Mont Veyrier et du massif du Semnoz et la mise en place de l’Observatoire Intercommunal de Biodiversité.
+
+# MIEUX CONNAÎTRE LES ÉCOSYSTÈMES ET LA BIODIVERSITÉ POUR MIEUX LES PROTÉGER
+
+Le Grand Annecy en assure le pilotage et l’animation. Aussi, il a réuni un comité technique fin août 2021 pour fédérer les acteurs engagés et les accompagner à la réalisation des 24 fiches actions en 5 ans.
+
+Le programme opérationnel vise la restauration de continuités écologiques, l’étude et la préservation d’espèces et de milieux patrimoniaux, le maintien des alpages, la labellisation de sites, la création d’un observatoire de la biodiversité, la structuration et le renforcement des actions de sensibilisation, des actions en faveur de la désimperméabilisation et de la végétalisation.
+
+Au printemps 2021, le Grand Annecy a signé le 1er Contrat territorial espaces naturels sensibles (CTENS) du territoire (17 maîtres d’ouvrage concernés dont le Grand Annecy, le Département, certaines communes, des associations et structures publiques ou semi-publiques). Le coût global du CTENS s’élève à 5,5 millions d’euros dont 2,4 millions d’euros apportés par le Département (financement par la taxe d’aménagement).
+
+# ÉTABLIR UN PLAN DE SÉQUESTRATION DU CARBONE
+
+L’élaboration d’un plan directeur de la séquestration carbone du Grand Annecy s’appuyant particulièrement sur les ressources forestières, les terres agricoles, les haies et les zones humides du territoire a été engagée avec l’aide de l’agence alpine des territoires (AGATE) qui dispose d’une expertise spécifique en la matière. L’atteinte de l’objectif du PACTE pour le climat demande une très forte attention pour préserver et développer ces puits de carbone naturels.
+
+|Marmotte|Sonneur à ventre jaune|
+|---|---|
+|Chouette de Tengmalm|Alpage|
+|Roselières| |
+|Cerf| |
+|Colchique de printemps|Colchique d’automne|
+|Gentiane jaune|Lucane Cerf Volant|
+
+Prairie agricole
+
+Forêt
+
+# DIOXYDE D’AZOTE
+
+# RETOUR SUR LA QUALITÉ DE L’AIR SUR LE TERRITOIRE EN 2021-2022
+
+# SITUATION SANITAIRE
+
+Carte des concentrations en dioxyde d’azote du Grand Annecy montre la répartition des concentrations en 2021 et l’impact des axes routiers.
+
+NO2
+
+Valeur recommandée par l’OMS
+
+|RÉGION|4 754 300 hab.|
+|---|---|
+|HAUTE-SAVOIE|593 200 hab.|
+|CA du Grand Annecy|165 700 hab.|
+|PPA Vallée de L’Arve|147 100 hab.|
+|Agglomérations franco-valdo-genevoise|298 600 hab.|
+
+Moyenne annuelle en µg.m3
+
+30%
+
+20%
+
+10%
+
+00%
+
+Voici également les cartes présentant l’état du territoire par rapport aux particules fines de type PM10 et à l’ozone (O3)
+
+# PARTICULES PM 10
+
+# SITUATION SANITAIRE
+
+PM10
+
+Valeur recommandée par l’OMS
+
+|RÉGION|1 909 500 hab.|
+|---|---|
+|HAUTE-SAVOIE|186 900 hab.|
+|CA du grand Annecy|106 200 hab.|
+
+Carte des concentrations en particules fines de type PM10 du Grand Annecy en 2021
+
+Moyenne annuelle en µg.m3
+
+10
+
+15
+
+20
+
+30
+
+40
+
+Valeur limite
+
+# OZONE
+
+# SITUATION SANITAIRE
+
+O3
+
+Valeur cible pour la santé
+
+|RÉGION|477 200 hab.|
+|---|---|
+|HAUTE-SAVOIE|2 000 hab.|
+|CA du Grand Annecy|0 hab.|
+|PPA Vallée de L’Arve|0 hab.|
+|Agglomérations franco-valdo-genevoise|45 300 hab.|
+
+Nombre de jours avec une moyenne sur 8h > 120 µg.m3 (moyenne sur 3 ans)
+
+Valeur Cible pour la protection de la santé humaine
+
+# LES ÉPISODES DE VIGILANCE POLLUTION EN 2021 ET 2022
+
+# CHANGEZ VOTRE APPAREIL DE CHAUFFAGE AU BOIS
+
+Et BÉNÉFICIEZ DE LA PRIME DE 1400€* FONDS AIR BOIS
+
+Plus d’infos sur www.grandannecy.fr
+
+ATMO enregistre la situation de la qualité de l’air ainsi que les épisodes de pollution pour le territoire Auvergne-Rhône-Alpes :
+
+- schéma directeur cyclable, renforcement du réseau de transports collectifs et étude pour un transport en commun en site propre intégral, développement des pôles d’échanges multimodaux ;
+- Le projet de zone à faibles émissions mobilité dont l’objectif premier est de réduire les émissions de polluants atmosphériques liés au trafic routier ;
+- Le contrat de chaleur renouvelable et le fonds air entreprises, visant à réduire les émissions du secteur économique ;
+- La charte des chantiers air climat, concernant spécifiquement les émissions de polluants atmosphériques lors des chantiers du territoire ;
+- Le projet Sillon’air, en lien avec ATMO AURA, qui consiste en l’installation de capteurs de qualité de l’air fixes et mobiles sur le territoire pour améliorer la connaissance.
+
+Le Grand Annecy est compris dans le secteur zone urbaine des pays de Savoie selon la classification ATMO. En 2021, 7 épisodes de pollutions ont été enregistrés, qui concernaient tous les particules fines (PM 10) :
+
+- 4 épisodes de vigilance jaune (dépassement du seuil d’information) les 22 et 23 février, puis le 5 mars et le 22 décembre.
+- 1 épisode de vigilance orange (dépassement du seuil d’alerte 1er niveau) le 24 février.
+- 2 épisodes de vigilance rouge (dépassement du seuil d’alerte de 2nd niveau) les 25 et 26 février.
+
+En 2022, 8 épisodes de pollution aux particules fines (PM10) « vigilance jaune » ont été enregistrés dans le secteur zone urbaine des pays de Savoie par ATMO :
+
+- Du 14 au 15 janvier puis du 15 au 16 janvier
+- Du 26 au 27 janvier puis du 27 au 28 janvier
+- Du 17 au 18 mars puis du 18 au 19 mars
+- Du 21 au 22 mai puis du 22 au 23 mai
+
+Les activités humaines contribuent aux émissions de polluants atmosphériques dans le Grand Annecy comme le montre le graphique ci-contre (données ATMO, 2019).
+
+On y voit l’impact prépondérant du trafic routier sur les émissions d’oxydes d’azote (71 % des émissions du territoire). Concernant les particules fines, le secteur résidentiel est le principal émetteur et est responsable de 71% des émissions de particules de type PM10 et 62% des PM2,5.
+
+Depuis plusieurs années, le Grand Annecy s’est saisi de ces enjeux en matière de qualité de l’air et développe des actions en vue de réduire les émissions de polluants des principaux secteurs.
+
+# Principales actions du Grand Annecy
+
+- Le fonds air bois visant à accélérer le renouvellement des dispositifs de chauffage au bois non performants ;
+- J’éco-rénove mon logement ;
+- Le plan de mobilité, et l’ensemble des actions
+
+|Sources d’émissions|Agriculture|Industrie|Énergie|Déchets|Transport routier|Autres|Résidentiel|Tertiaire|
+|---|---|---|---|---|---|---|---|---|
+|COVNM|0|27|3|0|9|0|60|1|
+|NO x|1|12|2|1|8|8|0|0|
+|PM 10|4|14|0|0|17|1|2|0|
+|PM 2,5|2|9|0|0|15|0|71|3|
+|Nh 3|88|0|0|0|4|0|7|1|
+|SO2|0|12|0|3|1|31|14|0|
+
+# TABLEAU RÉCAPITULATIF DE L’AVANCEMENT DES ACTIONS
+
+|Axe|N°|Intitulé de l'action|Indicateurs de réalisation 2021-2022|Axe|N°|Intitulé de l'action|Indicateurs de réalisation 2021-2022| | | | |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|Engager un grand débat participatif et soutenir financièrement les initiatives du territoire| | | | |1|Lancement de la plateforme Je participe.|2022 : Lancement du Lab'eau, dispositif apprenant impliquant les citoyens dans les problématiques de l'eau sur le territoire|Communiquer et sensibiliser|17|Mettre en place le centre de ressources et d’expertise pour la transition environnementale des entreprises|Ouverture de Quai 225 au 1er mars 2022, inauguration le 22 juin 2022 à Saint-Jorioz|
+|2|Créer la maison de la transition|6 manifestations sur le climat, l'air et l'énergie organisées par le Grand Annecy, dont 2 Défis Déclic.|18|Faire du campus universitaire un prototype et une vitrine de notre savoir-faire en matière de développement durable|Label Campus durable pour un territoire durable| | | | | | |
+|3|Favoriser l’émergence de centrales citoyennes de production d’énergies|Augmentation du nombre de copérateurs associés aux centrales citoyennes : 233 en 2021, 251 en 2022|19 a|Contribuer au développement d’une chaire d'économie environnementale|Création en 2021 d'une chaire de l'Economie Environnementale, avec le soutien du Grand Annecy| | | | | | |
+|MOBILISER L’ENSEMBLE DES ACTEURS ET LES CITOYENS AUTOUR DU PACTE| | | |4|Mettre en place des actions de sciences participatives sur le territoire|Augmentation de la puissance installée d'ENR par les centrales citoyennes (en Kwc) : 362 en 2021, 497 en 2022|Intégrer la thématique climat air énergie|20|Ratifier la charte Qualité de l’air avec le BTP 74|Création de la Charte Chantiers Air Climat en 2021| |
+|5|Apprendre à nos enfants à vivre et respecter la montagne et le paysage|Délibération à l'unanimité intégrant la dimension bioclimatique dans le PLUI en cours d'élaboration (2021)|21|Penser autrement les services du quotidien|Programme Petites Villes de demain déployé dans 3 communes du territoire pour renforcer l'offre de services de proximité.| | | | | | |
+|6|Accompagner l’évolution des pratiques des manifestations sur le territoire en faveur de la transition énergétique|Conseil en énergie : 21 communes accompagnées par le SYANE (2022)|22|Aménager de nouveaux quartiers avec des prescriptions environnementales fortes pour un urbanisme favorable à la santé|L'opération d'aménagement de la zone artisanale Chez Chamoux à Chavanod intègre une approche bioclimatique| | | | | | |
+|MAÎTRISER NOS CONSOMMATIONS D’ÉNERGIE|9|Gérer le patrimoine bâti du Grand Annecy en continuant à le rénover et initier les retours d’expérience|Poursuite des travaux à l'EHPAD Villa Romaine|Développer un réseau de transports collectifs attractif et performant pour tous|26 a|Engager la réalisation du réseau de transport en commun en site propre de l'agglomération du Grand Annecy|Adoption par le Conseil communautaire des principes de réalisation du futur réseau en 2021| | | | |
+|10|Suivre l’évolution de la facture énergétique du territoire|Mise en œuvre d'un Plan de sobriété énergétique en 2022 permettant d'économiser 10% d'énergie|26 b|Démarrage des études de faisabilité en 2022| | | | | | | |
+|11|Mettre en œuvre le plan de mobilité interne du Grand Annecy|Introduction du Forfait Mobilité Durable|27|Favoriser les modes actifs|En 2022, le territoire est équipé de 143 km de pistes cyclables, 40 stations de vélo en libre service (VLS), 51 au plus fort de l'été| | | | | | |
+| |Rendre la restauration collective climato compatible|12|Atteindre les objectifs de la stratégie lumière pour l’éclairage public|Pour les communes dans lesquelles les données ont pu être recueillies : la consommation de l'éclairage public par habitant (kWh/hab.an) a diminué de -18% environ entre 2021 et 2022|Organiser les livraisons et les flux de marchandises|29|Le Grand Annecy est lauréat du projet ECOMGA (e-commerce)|2% -18% en 2021 et a rejoint le programme national InTerLUD en 2022| | | |
+|13|Délibération à l'unanimité en faveur du lancement du Projet Alimentaire Territorial en 2021 - adoption en 2023| |30|Développer le MAAS ou service de mobilité intégré|À venir| | | | | | |
+|14|Renforcer la prise en compte des dimensions Climat-Air-Energie des autorisations d’urbanisme| |31|Faciliter la mobilité propre des professionnels|À venir| | | | | | |
+|15|Poursuivre l’amélioration du réseau d’eau potable|60,7 Kwh/hab en 2021, 60 Kwh/hab en 2022|32|Réduire les déplacements|Projets de tiers lieux sur le territoire pouvant accueillir certaines activités salariées, indépendantes dans les trois communes concernées par le programme Petites villes de demain.| | | | | | |
+|16|Mettre en œuvre les actions du PLPDMA et du CODEC|-4% en 2021, -18% en 2022|33|Faire du Grand Annecy un lieu d’expérimentation des nouvelles mobilités basées sur les énergies renouvelables|Achat de 6 autobus électriques standard en 2021| | | | | | |
+| | | | |34|Accompagner l’évolution des comportements et des pratiques de mobilité en s’appuyant sur la santé|Les communes ont mis en place des initiatives d'auto-stop organisé pour encourager cette pratique.| | | | | |
+
+# TeqCO2 évités 2021/2020
+
+# TeqCO2 évités 2021/2015
+
+|Axe|N°|Intitulé de l'action|Indicateurs de réalisation 2021-2022|
+|---|---|---|---|
+|35|Mettre en place une Zone à Faibles Emissions|Enquête sur la connaissance, l'acceptabilité et les conditions de réussite de la ZFE auprès de 80 professionnels et 500 habitants (2022)| |
+|36|Massifier la rénovation des logements|Montée en charge de la rénovation énergétique de l'habitat avec 74 maisons et 290 appartements financés en 2021, 58 maisons et 1 613 appartements financés en 2022|-1%|
+| | |1 230 primes attribuées depuis le lancement du fonds air bois en 2018|-12%|
+|37|Aider au renouvellement des appareils de chauffage non performants et supprimer le fuel pour des chauffages performants ENR|1 975 954€ de subventions versées| |
+|38|Intégrer au PLUIHM Bioclimatique (règlement et OAP) un niveau d’exigences environnementales des nouvelles constructions en lien avec la nouvelle règlementation|À venir| |
+|39|Rénover énergétiquement l’éclairage des copropriétés et l’inscrire dans la protection de la biodiversité nocturne|À venir| |
+|40|Massifier la rénovation du tertiaire|Aide à la rénovation énergétique des associations.|-6%|
+| | |Conférence TEPOS regroupant près de 200 représentants d'entreprises en 2021 à Annecy|-18%|
+|41|Accompagner les industriels et les TPE/PME dans les économies d’énergie et la production d’ENR en lien avec l’économie circulaire|Mise en place du dispositif d'accompagnements des entreprises : contrat de chaleur renouvelable et appel à projet solaire photovoltaïque| |
+|42 a|Elaborer une charte d’accueil touristique écoresponsable en commençant avec les acteurs du tourisme d’affaires| | |
+|42 b|Devenir une destination touristique durable|Elaboration d'une stratégie tourisme durable (adoption 2023)| |
+|43|Accompagner les campings et les commerces dans la transition| | |
+|44|Développer et structurer la filière bois|La production de chaleur issue de bois énergie sur le territoire s'élève à 181 GWh/an en 2021| |
+|45|Gérer durablement les forêts|14,8% de surface forestière certifiée sur le Grand Annecy en 2022| |
+|46|Intégrer la thématique climat air énergie dans l’élaboration et la mise en œuvre de la politique agricole du Grand Annecy|Poursuite du diagnostic agricole du PLUi-HMB| |
+|47|Produire et distribuer localement des produits alimentaires de qualité|18% de produits biologiques dans la restauration collective en 2022| |
+|48|Favoriser l’écologie industrielle et l’économie circulaire dans les zones d’activités|Soutien à l'association SOLUCIR| |
+|49|Réaliser le schéma directeur des énergies du territoire|Adoption du Schéma Directeur des Energie en mars 2022| |
+|50|Développer le solaire photovoltaïque et thermique|Évolution de la production de solaire thermique de 2020 à 2021 : +0,4% ; de 2015 à 2021 : +8%| |
+|51|Dynamiser la production de biogaz sur le territoire|3 méthaniseurs sur le territoire.| |
+|52|Développer les réseaux de chaleur et de froid|70% d'énergie renouvelable et de récupération (ENR&R) dans les réseaux de chaleur sur le territoire. 112 850 MWh distribués en 2021 (+11% par rapport à 2020 et +4% par rapport à 2015)| |
+|53|Optimiser la production hydroélectrique|La production hydroélectrique est comprise entre 51 et 57 GWh/an depuis 2019 (3 fois plus qu'en 2015)| |
+
+- juin 2023 - Crédits photos : Adobe Stock, Big Bang, Chapka Design, Grand Annecy, Jean-Marc Favre, Jean-Marc Lombard, JPEG Photo Club, Pierre Thomas, Quentin Trillot Ville d’Annecy, Rémi Masson, SIBRA, Unsplash.
+
+Télécharger la synthèse du rapport de développement durable sur : www.grandannecy.fr
+
+Grand Annecy
+
+46 avenue des îles
+
+BP 90270
+
+740007 ANNECY CEDEX
+
+www.grandannecy.fr
+

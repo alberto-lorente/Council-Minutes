@@ -1,0 +1,155 @@
+# MINISTÈRE DE LA TRANSITION ÉNERGÉTIQUE
+
+# ÉNERGIES RENOUVELABLES : LE PHOTOVOLTAÏQUE
+
+# RÉUSSIR LA TRANSITION ÉNERGÉTIQUE DE MON TERRITOIRE
+
+# CLÉS POUR AGIR
+
+ENR&R [ 012221 ] - GÉOTHERMIE DE SURFACE [ 012221-1 ] - RÉCUPÉRATION DE CHALEUR [ 012221-2 ] - BOIS ÉNERGIE [ 012221-3 ] - GÉOTHERMIE PROFONDE [ 012221-4 ] - SOLAIRE THERMIQUE [ 012221-5 ] - PHOTOVOLTAÏQUE [ 012221-6 ] - ÉOLIEN TERRESTRE [ 012221-7 ] - RÉSEAU DE CHALEUR [ 012221-8 ] - MÉTHANISATION [ 012221-9 ]
+
+Les communes sont des acteurs essentiels à la mise en œuvre de la loi relative à l’accélération de la production d’énergies renouvelables. Elles ont un rôle majeur à jouer dans le développement de ces filières nécessaires à la lutte contre le changement climatique et au renforcement de notre souveraineté énergétique. Ce jeu de fiches présente la diversité des énergies renouvelables à développer, leurs intérêts et les enjeux. Elles visent à contribuer aux débats et à la mise en œuvre des objectifs de planification.
+
+# L’énergie photovoltaïque, comment ça marche ?
+
+Les cellules photovoltaïques intégrées à des panneaux, pouvant être installés sur des bâtiments ou posés au sol, transforment le rayonnement solaire en électricité. L'électricité produite peut être utilisée sur place ou injectée dans le réseau de distribution électrique.
+
+|Émissions de CO2|Entre 23 et 44 g CO2/kWh|
+|---|---|
+|Coût du MWh produit|100 € /MWh|
+| |pour les installations sur grandes toitures > 500 kWc (coût complet moyen 2023)|
+| |110 € HT/MWh pour les installations sur ombrières > 500 kWc (coût complet moyen 2023)|
+|Capacité installée (au 31/12/2022)|16,3 GW|
+| |source de 4,2 % de la consommation d’électricité en 2022|
+|Emprise au sol|1 à 2 ha/MW pour les centrales au sol|
+|Objectifs de capacité (Planification Pluriannuelle de l’Énergie - PPE pour la métropole à l'horizon 2028)|35,1 à 44 GW|
+| |soit plus de 30 % de la puissance totale installée en énergie renouvelable électrique à cette date.|
+|Emplois|12 160|
+| |fin 2020 (prévision de 15 610 ETP pour fin 2022)|
+
+# Enjeux et perspectives
+
+Le solaire photovoltaïque est aujourd’hui l’une des filières de production d’électricité renouvelable les plus compétitives. Elle présente l’avantage d’être rapidement déployable à grande échelle.
+
+- En Europe, le plan REPowerEU publié en mai 2022 par la Commission européenne fixe l’objectif de doubler la capacité installée par rapport à 2020 et d’atteindre 600 GW d’ici 2030.
+- Au niveau international, les nouvelles capacités installées annuellement devraient représenter 630 GW en 2030 (selon l’Agence internationale de l’énergie), contre 183 GW en 2021.
+- En France, la Programmation pluriannuelle de l’énergie fixe un objectif de 35 à 44 GW d’ici 2028, ce qui nécessite de poursuivre l’accélération du rythme de développement des projets et de leur raccordement au réseau.
+
+# Quel intérêt pour mon territoire ?
+
+# REVENUS FISCAUX
+
+La production d’électricité photovoltaïque apporte des revenus fiscaux aux collectivités.
+
+- L’imposition forfaitaire sur les entreprises de réseaux (IFER) pour les installations d’une puissance supérieure à 100 kWc ;
+- La taxe foncière sur les propriétés bâties (TFPB), pour les installations au sol ou en ombrière ;
+- La contribution économique territoriale (CET) ;
+- La taxe d’aménagement (TA) pour les installations au sol nécessitant une autorisation d’urbanisme.
+
+# ÉCONOMIE DE FACTURES
+
+Ils contribuent au développement de filières d’emplois spécifiques et non délocalisables liés notamment à l’installation et à la maintenance. Pour les installations hors du soutien public et par l’intermédiaire d’un contrat d’achat direct d'électricité (ou PPA pour « Power Purchase Agreement ») passé entre la collectivité et un producteur d’électricité ou au sein d’une opération d’autoconsommation collective, la collectivité peut obtenir des tarifs d’électricité concurrentiels et stables sur le long terme.
+
+Dans le cas d’une opération d’autoconsommation, la collectivité peut choisir d’autoconsommer une partie de sa production et de réinjecter le surplus sur le réseau public. Elle peut alors bénéficier d’un soutien public (obligation d’achat ou complément de rémunération en fonction de la taille du projet).
+
+La collectivité peut également prendre part à la gouvernance d’un projet photovoltaïque sur son territoire (projet citoyen) et obtenir des retombées économiques provenant de la vente de l’électricité.
+
+# De quoi parle-t-on ?
+
+# L’EFFET PHOTOVOLTAÏQUE
+
+La cellule photovoltaïque, élément de base des modules, est composée d’un matériau semi-conducteur photosensible (souvent du silicium) qui possède la propriété de convertir la lumière du soleil en électricité : c’est l’effet photovoltaïque. Chaque cellule ne générant qu’une petite quantité d’électricité, elles sont assemblées, protégées par différentes couches de matériaux afin de former un module photovoltaïque.
+
+# Synoptique simplifié d’une installation photovoltaïque avec les différentes unités de puissance
+
+|Courant continu|Courant alternatif|
+|---|---|
+|Modules photovoltaïques Puissance crête (kWc)|Onduleur Puissance onduleur (kW) Puissance de raccordement (kVA)|
+|Réseau de distribution d’électricité|Réseau de distribution d’électricité|
+
+# UNE TECHNOLOGIE MODULAIRE ET ADAPTABLE
+
+Le photovoltaïque présente l’atout majeur d’exister sous différentes technologies et de pouvoir s’installer de manière variée sur plusieurs types de terrains ou de surfaces. Il peut ainsi s’installer de différentes façons sur l’enveloppe des bâtiments (toitures, façades, verrières, fenêtres, etc.), au sol, sur des ombrières de parking, bénéficier à des exploitations agricoles grâce à l’agrivoltaïsme, sur des structures flottantes, etc. Il existe une variété quasiment infinie d’installations possibles, pour des puissances allant de quelques kW à plusieurs MW.
+
+# Parmi les implantations les plus courantes :
+
+- Les toitures photovoltaïques, dont le gisement disponible est considérable, avec plus de 350 GW identifiés en France. Elles permettent d’éviter les conflits d’usage et ne portent pas atteinte à la biodiversité.
+- Les centrales au sol, que l'on privilégie sur les sols déjà artificialisés ou à faibles enjeux en termes de biodiversité (parkings, friches, délaissés routiers / autoroutiers / ferroviaires, etc.). Ces centrales doivent être développées dans le cadre d’un projet de territoire et en concertation avec toutes les parties prenantes pour permettre à chacun de s’approprier ces infrastructures.
+- Les ombrières de parkings, utiles aux consommateurs et qui peuvent être couplées à des bornes de recharge pour véhicules électriques.
+- Les installations agrivoltaïques, encore peu répandues mais en plein essor, qui doivent apporter un service à l’installation agricole. Ces installations sont une nouvelle voie de développement du photovoltaïque à condition qu’elles préservent les sols et l’agriculture.
+
+# Que puis-je faire en tant qu’élu.e ?
+
+# La loi d’accélération de la production d’énergies renouvelables...
+
+1. Contacter le réseau Les Générateurs de sa région. Mis en place en 2022, il apporte conseils et informations aux élus et communes pour le développement de projets photovoltaïques (en particulier durant la phase amont).
+
+Contact : https://lesgenerateurs.ademe.fr/
+2. Optimiser les retombées locales en encourageant les projets participatifs et/ou à gouvernance locale ou en impliquant directement la collectivité dans le développement des projets.
+3. Encourager les installations sur bâtiment plus vertueuses d’un point de vue environnemental.
+4. Planifier le développement des centrales au sol et prévenir les conflits d’usages en privilégiant des fonciers déjà artificialisés (terrains anthropisés, friches industrielles, etc.).
+5. Préserver et protéger les sols agricoles en encourageant le développement des installations agrivoltaïques, en synergie avec l’activité agricole.
+
+...permet également d’encourager le développement du photovoltaïque sous toutes ses formes. Les obligations d’installation d’énergies renouvelables ou de végétalisation sur bâtiments et parkings ont été renforcées :
+
+- Bâtiments neufs : la loi a élargi le périmètre d’application de cette obligation en diminuant le seuil d’emprise au sol à 500 m² et en y intégrant de nouvelles typologies de bâtiments.
+- Bâtiments existants : la loi a introduit cette obligation pour les bâtiments existants correspondant aux mêmes typologies, avec le même seuil d’emprise au sol de 500 m².
+- Parkings extérieurs existants : la loi a introduit cette obligation pour les parkings extérieurs existants de surface supérieure à 1500 m².
+
+Des délais d’application sont prévus par la loi. Des dérogations sont également prévues en cas de contraintes techniques, de sécurité, architecturales, patrimoniales, environnementales, d’ordre paysager ou lorsque les travaux ne peuvent être réalisés dans des conditions économiquement acceptables.
+
+La loi permet enfin d’encadrer le développement du photovoltaïque sur terrains agricoles, en distinguant le photovoltaïque au sol, devant être compatible avec une installation agricole et ne pouvant être installé que sur des terres incultes ou non exploitées depuis une durée minimale, et l’agrivoltaïsme, devant apporter un service à une activité agricole. La définition de ces différents concepts doit être précisée par décret.
+
+# Idées reçues et sujets de débat
+
+# VARIABILITÉ DE LA PRODUCTION :
+
+Les outils de prévision permettent aujourd’hui de prédire la production photovoltaïque à court, moyen et long terme avec une précision similaire à celle des prévisions de la demande électrique du gestionnaire de réseau. Ainsi pris en compte, le photovoltaïque ne perturbe pas les opérations d’équilibrage du réseau. Bien sûr, avec un déploiement massif des énergies renouvelables électriques, cet équilibre deviendra plus difficile à tenir sans dispositions complémentaires.
+
+Des études de l’ADEME sur la modélisation du réseau français métropolitain montrent néanmoins que le développement du photovoltaïque jusqu’à 20 GW réduit le besoin de flexibilité journalière au niveau national, car il permet de contribuer à couvrir la pointe de consommation méridienne. Au-delà, le développement des flexibilités (pilotage de la demande, réseaux intelligents, interconnexions, solutions de stockage, émergence de nouvelles solutions techniques alternatives, etc.) permettra de garantir l’équilibrage en temps réel de la demande et de la production massive des énergies électriques variables, telles que le photovoltaïque.
+
+# COÛT :
+
+Les coûts des systèmes photovoltaïques et les coûts d’exploitation ont spectaculairement baissé au début de la décennie 2010. Le coût d’une installation a notamment été divisé par 10 en 10 ans.
+
+# TERRES RARES :
+
+Comme pour toute activité humaine, les centrales photovoltaïques peuvent avoir des incidences sur la biodiversité et les sols lorsqu’elles sont implantées sur des milieux naturels. Elles peuvent notamment modifier les conditions d’accueil de la flore et de la faune sauvage et leurs corridors de migration. Néanmoins, l’impact des centrales photovoltaïques sur la biodiversité n’a fait l’objet de travaux scientifiques que sur un nombre limité de sites et il est encore difficile d’en généraliser les résultats. Il convient cependant de respecter la hiérarchie de la séquence ERC (« Éviter, Réduire, Compenser") en donnant la priorité à l’évitement, puis à la réduction, la compensation ne venant qu’en dernier ressort.
+
+# BIODIVERSITÉ :
+
+Les technologies solaires photovoltaïques actuellement commercialisées n’utilisent pas de terres rares. Certaines utilisent des métaux qui peuvent être critiques, comme le tellure, l’indium et l’argent pour les couches minces, ou l’antimoine et l’argent pour la filière silicium. Mais il ne s’agit pas de terres rares.
+
+# RECYCLAGE :
+
+- Les producteurs de modules photovoltaïques ont d’ores et déjà l’obligation de prévoir leur recyclage en application de la directive européenne sur les déchets d’équipements électriques et électroniques (DEEE).
+- En France, la société SOREN est l’éco-organisme missionné par l’État pour la collecte et le traitement de ces modules en fin de vie.
+- Les procédés actuels permettent de recycler plus de 95 % de la masse des systèmes photovoltaïques, notamment le verre et le cadre en aluminium. Les composants, non recyclables, sont valorisés énergétiquement ou éliminés.
+
+# Grandes étapes de projet
+
+|Étude de faisabilité...|Étape de montage...|Phase de conception...|Phase de réalisation...|
+|---|---|---|---|
+|... pour confirmer ou non l’intérêt du projet et définir sommairement la puissance, le montage adéquat, l’équipement économique, les contraintes éventuelles et le calendrier.|... qui définit le maître d’ouvrage et toutes les relations contractuelles et le mode d’exploitation futur.|... pendant laquelle aura lieu le tour de table financier, la finalisation du choix de l’équipe maîtrise d’œuvre et les démarches administratives.|... avec les travaux d’installation du système.|
+|Durée : 2 à 6 mois|Durée : 2 à 6 mois|Durée : 2 à 6 mois|Durée : > 20 ans (durée contractuelle de l’obligation d’achat) et jusqu’à 30 ans ou plus en autoconsommation par la vente de l’électricité avant la fin de vie du système, requérant démontage et recyclage.|
+
+Il convient de noter que, plus la puissance du système photovoltaïque est importante, plus le métier de maître d’ouvrage nécessite des compétences spécialisées. Au-delà de 500 kW, le projet requiert normalement la création d’une société dédiée qui deviendra maître d’ouvrage de la construction et pourra faire appel à un développeur photovoltaïque, en capacité de concevoir, financer et construire le système photovoltaïque pour le compte de la société de projet.
+
+# Chiffres clés
+
+|Nombre de foyers alimentés par une centrale de 1 MW|Temps de développement d’un projet|Durée de vie moyenne des installations|
+|---|---|---|
+|250|6 mois (petits projets) à 18-24 mois (moyens et gros projets)|30 ans pour les modules, 10 à 15 ans pour les onduleurs|
+
+Approfondissez votre réflexion et passez à l'action avec des témoignages, méthodes, chiffres clés...
+
+- Ne pas jeter sur la voie publique
+
+- Juin 2023
+
+- ADEME
+
+ademe.fr
+
+012221-6
+

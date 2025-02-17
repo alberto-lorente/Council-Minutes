@@ -77,8 +77,8 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
 
 def compute_norm_embeddings(model_id, sentence, device="cuda"):
 
-    model = SentenceTransformer(model_id).to(device)
-    embeddings = model.encode(sentence, normalize_embeddings=True)
+    model = SentenceTransformer(model_id)
+    embeddings = model.encode(sentence, trust_remote_code=True)
 
     # detached_embeddings = embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
 

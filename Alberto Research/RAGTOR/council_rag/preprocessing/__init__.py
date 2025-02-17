@@ -10,7 +10,7 @@ if torch.cuda.is_available():
 
 
 def preprocess_markdown_text(markdown,
-                            model_id ="HIT-TMG/KaLM-embedding-multilingual-mini-v1", 
+                            model_id ="Snowflake/snowflake-arctic-embed-l-v2.0", 
                             spacy_model="fr_core_news_sm", 
                             n_sents_per_para=10, 
                             device=device):

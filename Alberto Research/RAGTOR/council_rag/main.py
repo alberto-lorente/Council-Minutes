@@ -22,7 +22,7 @@ def main(markdown,
         is_separator_regex,
         embedding_model_rag):
 
-    paragraphs_list, clusters_dict = preprocess_markdown_text(markdown=markdown,
+    paragraphs_list, clusters_dict, model = preprocess_markdown_text(markdown=markdown,
                                                         model_id =embd_model, 
                                                         spacy_model=spacy_model, 
                                                         n_sents_per_para=sent_per_para,

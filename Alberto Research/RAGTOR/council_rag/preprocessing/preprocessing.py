@@ -5,13 +5,14 @@ import numpy as np
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score
 from sentence_transformers import SentenceTransformer
+import gc
 
 device = "cpu"
 if torch.cuda.is_available():
     # print("Cuda available")
     device = torch.device('cuda')
 
-def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_para=10):
+def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_para=8):
     
     nlp = spacy.load(spacy_model)
     doc = nlp(text)
@@ -85,31 +86,23 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
 #     torch.cuda.empty_cache() # careful with running out of memory
 
 #     return embeddings
-def compute_norm_embeddings(model_id, sentence, device=device):
+
+def unload_cuda():
+    torch.cuda.empty_cache()
+    gc.collect()
     
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModel.from_pretrained(model_id, trust_remote_code=True, 
-                                    add_pooling_layer=False, 
-                                    afe_serialization=True)
-    model.eval()
-
-    tokenized_sentence = tokenizer(sentence, padding=True, truncation=True, return_tensors='pt').to(device)
-
-    # Compute token embeddings
-    with torch.no_grad():
-        sentence_embeddings = model(**tokenized_sentence)[0][:, 0]
-        
-    # normalize embeddings
-    sentence_embeddings = torch.nn.functional.normalize(sentence_embeddings, p=2, dim=1)
+def compute_norm_embeddings(model, sentence):
     
-    return sentence_embeddings.cpu().numpy()
+    embeddings = model.encode(sentence)
+    unload_cuda()
+    
+    return embeddings
 
-
-def compute_paragraph_embeddings(paragraphs, model_id):
+def compute_paragraph_embeddings(paragraphs, model):
     # Compute the embeddings for each paragraph
     list_paras = [para["paragraph_union"] for para in paragraphs]
     for paras, para_dict in zip(list_paras, paragraphs):
-        para_dict["para_embedding"] = compute_norm_embeddings(model_id, paras)
+        para_dict["para_embedding"] = compute_norm_embeddings(model, paras)
     return paragraphs
 
 # Clustering function to calculate and score a set of clusters
@@ -118,16 +111,16 @@ def cluster_n(cluster_model, n_clusters, embeddings, scoring_function):
     clusters = cluster_model.fit_predict(embeddings)
     sil_sc = scoring_function(embeddings, clusters)
 
-    print("Number of clusters: ", n_clusters)
-    print("Score: ", sil_sc)
-    print()
+    # print("Number of clusters: ", n_clusters)
+    # print("Score: ", sil_sc)
+    # print()
 
     return clusters, sil_sc
 
-def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9):
+def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=12):
     
     #ranges of clusters to test
-    range_clusters = np.arange(start=3, stop=max_n_clusters, step=1)
+    range_clusters = np.arange(start=8, stop=max_n_clusters, step=1)
 
     # Compute the silhouette scores for each number of clusters
     silhouette_scores = []
@@ -151,7 +144,7 @@ def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9):
 
 
 # Filling the dictionary of clusters
-def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embeddings=False, model_id=None):
+def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embeddings=False, model=None):
     i = 0
 
     for para_dict, cluster in zip(paragraphs, final_clusters):
@@ -165,7 +158,7 @@ def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embed
     if recompute_embeddings:
         for cluster in clusters_ids.keys():
             text = clusters_ids[cluster]["union_paras"]
-            cluster_embds = compute_norm_embeddings(model_id, text)
+            cluster_embds = compute_norm_embeddings(model, text)
             clusters_ids[cluster]["cluster_embedding"] = cluster_embds
 
     return clusters_ids, paragraphs

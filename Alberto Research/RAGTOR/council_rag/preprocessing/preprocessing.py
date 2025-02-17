@@ -4,6 +4,12 @@ import spacy
 import numpy as np
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score
+from sentence_transformers import SentenceTransformer
+
+device = "cpu"
+if torch.cuda.is_available():
+    # print("Cuda available")
+    device = torch.device('cuda')
 
 def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_para=10):
     
@@ -53,28 +59,40 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
         
     return paragraphs
 
-def compute_norm_embeddings(tokenizer, model, sentence, device="cuda"):
+# def compute_norm_embeddings(tokenizer, model, sentence, device="cuda"):
 
-    tokenized_sentences = tokenizer(sentence, return_tensors="pt", padding=True, truncation=True).to(device)
+#     tokenized_sentences = tokenizer(sentence, return_tensors="pt", padding=True, truncation=True).to(device)
 
-    model.eval()
-    with torch.no_grad():
-        embeddings = model(**tokenized_sentences)[0][:, 0].squeeze(0) # to take out the unused dimension since we are not batching
-        # print(embeddings.shape)
+#     model.eval()
+#     with torch.no_grad():
+#         embeddings = model(**tokenized_sentences)[0][:, 0].squeeze(0) # to take out the unused dimension since we are not batching
+#         # print(embeddings.shape)
 
-    normalized_embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=0)
-    detached_embeddings = normalized_embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
+#     normalized_embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=0)
+#     detached_embeddings = normalized_embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
+
+#     torch.cuda.empty_cache() # careful with running out of memory
+
+#     return detached_embeddings
+
+def compute_norm_embeddings(model_id, sentence, device="cuda"):
+
+    model = SentenceTransformer(model_id).to(device)
+    embeddings = model.encode(sentence, normalize_embeddings=True)
+
+    detached_embeddings = embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
 
     torch.cuda.empty_cache() # careful with running out of memory
 
     return detached_embeddings
 
 
-def compute_paragraph_embeddings(paragraphs, tokenizer, model):
+
+def compute_paragraph_embeddings(paragraphs, model_id):
     # Compute the embeddings for each paragraph
     list_paras = [para["paragraph_union"] for para in paragraphs]
     for paras, para_dict in zip(list_paras, paragraphs):
-        para_dict["para_embedding"] = compute_norm_embeddings(tokenizer, model, paras)
+        para_dict["para_embedding"] = compute_norm_embeddings(model_id, paras)
     return paragraphs
 
 # Clustering function to calculate and score a set of clusters
@@ -83,9 +101,9 @@ def cluster_n(cluster_model, n_clusters, embeddings, scoring_function):
     clusters = cluster_model.fit_predict(embeddings)
     sil_sc = scoring_function(embeddings, clusters)
 
-    # print("Number of clusters: ", n_clusters)
-    # print("Score: ", sil_sc)
-    # print()
+    print("Number of clusters: ", n_clusters)
+    print("Score: ", sil_sc)
+    print()
 
     return clusters, sil_sc
 
@@ -116,7 +134,7 @@ def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9):
 
 
 # Filling the dictionary of clusters
-def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embeddings=False, tokenizer=None, model=None):
+def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embeddings=False, model_id=None):
     i = 0
 
     for para_dict, cluster in zip(paragraphs, final_clusters):
@@ -130,7 +148,7 @@ def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embed
     if recompute_embeddings:
         for cluster in clusters_ids.keys():
             text = clusters_ids[cluster]["union_paras"]
-            cluster_embds = compute_norm_embeddings(tokenizer, model, text)
+            cluster_embds = compute_norm_embeddings(model_id, text)
             clusters_ids[cluster]["cluster_embedding"] = cluster_embds
 
     return clusters_ids, paragraphs

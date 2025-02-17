@@ -19,12 +19,8 @@ def preprocess_markdown_text(markdown,
     # Split the markdown into paragraphs, markdown is a string
     paragraphs = split_markdown_to_paras(markdown, spacy_model, n_sents_per_para)
 
-    # Load the model
-    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path=model_id)
-    model = AutoModel.from_pretrained(model_id).to(device)
-
     # Split the markdown into paragraphs
-    paragraphs = compute_paragraph_embeddings(paragraphs, tokenizer, model)
+    paragraphs = compute_paragraph_embeddings(paragraphs, model_id)
     
     # Get just the embeddings to compute the ideal number of clusters
     squeezeded_embeddings = [para_dict["para_embedding"] for para_dict in paragraphs]

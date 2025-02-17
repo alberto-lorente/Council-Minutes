@@ -1,0 +1,7 @@
+for using traditional dbs
+- already did the schema but I couldn't get it to run. implementations of vector search fx in trad bds is not very accessible rn (maybe double check this).
+- using a trad db would make it easier to not have to compute all the embeddings at the same time, potentially saving some time/cost if there are pieces of text that would never get used.
+
+automatic annot of data via clustering embeddings
+- avenue worth exploring - recap shortly what we did at the beginnig
+- training with noise - continual pretraining as data becomes available

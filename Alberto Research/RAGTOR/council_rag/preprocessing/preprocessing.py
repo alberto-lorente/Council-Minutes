@@ -75,17 +75,34 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
 
 #     return detached_embeddings
 
-def compute_norm_embeddings(model_id, sentence, device="cuda"):
+# def compute_norm_embeddings(model_id, sentence, device="cuda"):
 
-    model = SentenceTransformer(model_id)
-    embeddings = model.encode(sentence, trust_remote_code=True)
+#     model = SentenceTransformer(model_id)
+#     embeddings = model.encode(sentence, trust_remote_code=True)
 
-    # detached_embeddings = embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
+#     # detached_embeddings = embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
 
-    torch.cuda.empty_cache() # careful with running out of memory
+#     torch.cuda.empty_cache() # careful with running out of memory
 
-    return embeddings
+#     return embeddings
+def compute_norm_embeddings(model_id, sentence, device=device):
+    
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModel.from_pretrained(model_id, trust_remote_code=True, 
+                                    add_pooling_layer=False, 
+                                    afe_serialization=True)
+    model.eval()
 
+    tokenized_sentence = tokenizer(sentence, padding=True, truncation=True, return_tensors='pt').to(device)
+
+    # Compute token embeddings
+    with torch.no_grad():
+        sentence_embeddings = model(**tokenized_sentence)[0][:, 0]
+        
+    # normalize embeddings
+    sentence_embeddings = torch.nn.functional.normalize(sentence_embeddings, p=2, dim=1)
+    
+    return sentence_embeddings.cpu().numpy()
 
 
 def compute_paragraph_embeddings(paragraphs, model_id):

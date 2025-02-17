@@ -80,11 +80,11 @@ def compute_norm_embeddings(model_id, sentence, device="cuda"):
     model = SentenceTransformer(model_id).to(device)
     embeddings = model.encode(sentence, normalize_embeddings=True)
 
-    detached_embeddings = embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
+    # detached_embeddings = embeddings.detach().cpu().numpy() # detached into cpu so that we can manipulate them for clustering
 
     torch.cuda.empty_cache() # careful with running out of memory
 
-    return detached_embeddings
+    return embeddings
 
 
 
@@ -130,7 +130,7 @@ def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9):
     # Getting the labels for the optimal number of clusters
     final_clusters = clusters_labels[max]
     
-    return optimal_n, final_clusters
+    return optimal_n, final_clusters, silhouette_scores
 
 
 # Filling the dictionary of clusters

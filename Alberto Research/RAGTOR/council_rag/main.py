@@ -8,7 +8,7 @@ def main(markdown,
         sent_per_para, 
         device, 
         pdf_path, 
-        base_prompt, 
+        table_processing_prompt, 
         groq_token, 
         summary_prompt, 
         model, 
@@ -29,7 +29,7 @@ def main(markdown,
                                                         device=device)
 
     processed_tables = process_tables(pdf_path, 
-                                base_prompt, 
+                                table_processing_prompt, 
                                 groq_token)
 
     clusters_dict = summarize_clusters(clusters_dict, 

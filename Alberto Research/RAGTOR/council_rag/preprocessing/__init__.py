@@ -26,7 +26,7 @@ def preprocess_markdown_text(markdown,
     squeezeded_embeddings = [para_dict["para_embedding"] for para_dict in paragraphs]
 
     # Compute the ideal number of clusters
-    optimal_n, final_clusters = get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9)
+    optimal_n, final_clusters, silhouette_scores = get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=9)
     
     # Creating the dictionary of clusters
     clusters_ids = {f"cluster_{cluster_id}": {"para_indexes": [],

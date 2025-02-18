@@ -33,7 +33,9 @@ def pdf2md(file_path):
 	return md
 
 def download_pdf (url, pdf_path):
-	""" Downloads the pdf at url and store in pdf_path. return True if success, else False
+	""" 
+	Downloads the pdf at url and store in pdf_path. 
+	Returns True if success, else False
 	"""
 	try:
 		urllib.request.urlretrieve(url, pdf_path)
@@ -43,6 +45,9 @@ def download_pdf (url, pdf_path):
 		return False
 
 def pf2mdpagebypage(input_pdf, output_folder, extract_text_function=pdf2md):
+    """
+    Not currently used.
+    """
 	doc = fitz.open(input_pdf)
 	pages = []
 	for i, page in enumerate(doc):

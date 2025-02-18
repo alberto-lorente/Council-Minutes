@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 import faiss
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-
+from council_rag.preprocessing import generate_groq_summary
 
 from huggingface_hub import HfFolder, whoami
 
@@ -29,7 +29,10 @@ if torch.cuda.is_available():
     device = torch.device('cuda')
 
 def preprocess_dicts_for_rag(cluster_dict, paragraphs_list):
-    
+    """
+    Lightly preprocesses the dictionary of clusters and the list of paragraphs for the RAG.
+    Returns the list of clusters and the list of paragraphs.
+    """
     clusters_list = list(cluster_dict.values())
     i = 0
     while i < len(clusters_list):
@@ -42,7 +45,10 @@ def preprocess_dicts_for_rag(cluster_dict, paragraphs_list):
     return clusters_list, paragraphs_list
 
 def set_up_rag_index(embedding_model):
-    
+    """
+    Sets up a Faiss RAG index based on the dimensions of the embedding model.
+    Returns the vector store, the index and the embedding dimensions.
+    """
     shape_emb = embedding_model.encode("Hello World!")
     emd_dims =  shape_emb.shape[0]
     index = faiss.IndexFlatL2(emd_dims)
@@ -59,7 +65,11 @@ def process_cluster_dict_to_objects(clusters_list,
                                 chunk_overlap=35,
                                 length_function=len,
                                 is_separator_regex=False):
-    
+    """
+    Processes the cluster dictionary into a list of Langchain Document objects.
+    Processes one list for the cluster summaries and one for the individual chunks.
+    Returns the two list of Document objects.
+    """
     cluster_paras = [] # to process into smaller chunks
     cluster_summ_docs = [] # filled with the cluster summaries langchain doc type
 
@@ -94,7 +104,10 @@ def process_cluster_dict_to_objects(clusters_list,
     return cluster_summ_docs, cluster_chunks
     
 def process_tables_dict_to_objects(processed_tables_dict):
-    
+    """
+    Processes the tables dictionary into three list of Langchain Document objects: one for the augmented table chunks, one for the table descriptions and one for the html tables.
+    Returns the list of augmented table chunks, the list of table descriptions and the list of html tables.
+    """
     augmented_table_chunks = []
     table_descriptions_chunks = []
     html_tables_chunks = []
@@ -121,7 +134,10 @@ def prepare_data_for_rag(clusters_dict,
                         chunk_overlap,
                         length_function,
                         is_separator_regex):
-    
+    """
+    Prepares the data for the RAG.
+    Returns the list of clusters, the list of paragraphs and the list of all documents processed.
+    """
     clusters_list, paragraphs_list = preprocess_dicts_for_rag(clusters_dict, paragraphs_list)
     
     
@@ -133,9 +149,23 @@ def prepare_data_for_rag(clusters_dict,
                                                                         is_separator_regex=is_separator_regex)
     
     augmented_table_chunks, table_descriptions_chunks, html_tables_chunks = process_tables_dict_to_objects(processed_tables_dict)
+    all_docs = cluster_chunks + cluster_summ_docs + augmented_table_chunks + table_descriptions_chunks + html_tables_chunks
     
-    return clusters_list, paragraphs_list, cluster_summ_docs, cluster_chunks, augmented_table_chunks, table_descriptions_chunks, html_tables_chunks
+    return clusters_list, paragraphs_list, all_docs
+
+def shorten_summary_docs(all_docs, groq_token, model="gemma2-9b-it"):
+    """
+    Prompts Gemma to shortens the documents whose context exceeds 1500 naive tokens.
+    Returns the list of Document objects with the shortened summaries.
+    """
+    summary_shorten_prompt="Résumez le texte suivant en moins de 1400 mots: {}. Output le résumé directement."
+    for doc in all_docs:
+        if len(doc.page_content.split(" ")) > 1500:
+            new_content = generate_groq_summary(summary_shorten_prompt, doc.page_content, groq_token, model)
+            doc.page_content = new_content
     
+    return all_docs
+
     
     
     

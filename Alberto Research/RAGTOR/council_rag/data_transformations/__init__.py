@@ -21,7 +21,10 @@ if torch.cuda.is_available():
     
 
 def process_tables(pdf_path, base_prompt, groq_token):
-
+    """
+    Extract the tables from the pdf, convert the pages that contain tables into images and pass them to a VL Model.
+    Returns a dictionary with the processed tables.
+    """
     extracted_tables = extract_tables_from_page(pdf_path)
     extracted_tables_filter = {k:v for k, v in extracted_tables.items() if v != []} # filtering the pages that actually have tables
     list_pages_with_tables = list(extracted_tables_filter.keys())
@@ -41,7 +44,11 @@ def process_tables(pdf_path, base_prompt, groq_token):
     return processed_tables
 
 def summarize_clusters(cluster_dict, summary_prompt, groq_token, model="gemma2-9b-it", token_limit=14000, sleep_time=60):
-    
+    """
+    Collect the cluster paragraphs from the cluster dict and summarize them. 
+    Since there is a token per minute limit, the function will sleep for a while if the token count surpasses the limit.
+    Returns the original cluster dict with the cluster summaries added into a cluster_summary key in for each cluster value.
+    """
     text_clusters_to_summarize = []
     for cluster in cluster_dict.values():
         cluster_para_text = cluster["union_paras"]

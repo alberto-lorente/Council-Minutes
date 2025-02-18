@@ -13,12 +13,17 @@ if torch.cuda.is_available():
     device = torch.device('cuda')
 
 def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_para=8):
+    """
+    Splits the markdown text into paragraphs based on the number of sentences per paragraph with spacy.
+    Returns the list of paragraphs dictionaries with the total text of the paragraph, the start and stop ranges of the sentences and the list of sentences.
+    """
     
     nlp = spacy.load(spacy_model)
     doc = nlp(text)
     sents = [sent.text for sent in doc.sents]
     
-    rang_sentence_union = np.arange(start=0, stop=len(sents), step=n_sents_per_para)
+    stop = len(sents)
+    rang_sentence_union = np.arange(start=0, stop=stop, step=n_sents_per_para)
     # print("Total number of sents: ", len(sents))
     # print("Number of final chunks: ", len(rang_sentence_union))
 
@@ -60,6 +65,7 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
         
     return paragraphs
 
+# not used anymore
 # def compute_norm_embeddings(tokenizer, model, sentence, device="cuda"):
 
 #     tokenized_sentences = tokenizer(sentence, return_tensors="pt", padding=True, truncation=True).to(device)
@@ -88,26 +94,42 @@ def split_markdown_to_paras(text, spacy_model="fr_core_news_sm", n_sents_per_par
 #     return embeddings
 
 def unload_cuda():
+    """
+    Function to workaround CUDA issues.
+    """
     torch.cuda.empty_cache()
-    gc.collect()
     
+    
+    return gc.collect()
+
 def compute_norm_embeddings(model, sentence):
-    
+    """
+    Computes the embeddings of the sentence using the model.
+    The model is passed already initialized to avoid having to load it again and running into CUDA issues.
+    Returns the embeddings.
+    """
     embeddings = model.encode(sentence)
     unload_cuda()
     
     return embeddings
 
 def compute_paragraph_embeddings(paragraphs, model):
+    """
+    Computes the embeddings of the paragraphs using the model.
+    The model is passed already initialized to avoid having to load it again and running into CUDA issues.
+    Returns the paragraphs list with the embeddings as an item of each paragraph dictionary.
+    """
     # Compute the embeddings for each paragraph
     list_paras = [para["paragraph_union"] for para in paragraphs]
     for paras, para_dict in zip(list_paras, paragraphs):
         para_dict["para_embedding"] = compute_norm_embeddings(model, paras)
     return paragraphs
 
-# Clustering function to calculate and score a set of clusters
 def cluster_n(cluster_model, n_clusters, embeddings, scoring_function):
-
+    """
+    Clusters the embeddings using the cluster model, a Gaussian Mixture.
+    Returns the clusters and the silhouette score.
+    """
     clusters = cluster_model.fit_predict(embeddings)
     sil_sc = scoring_function(embeddings, clusters)
 
@@ -118,6 +140,11 @@ def cluster_n(cluster_model, n_clusters, embeddings, scoring_function):
     return clusters, sil_sc
 
 def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=12):
+    """
+    Gets the optimal number of clusters for the embeddings based on the max silhouette score.
+    The range of clusters to test is from 8 to max_n_clusters. Ideally it would be computed dinamycally based on the data.
+    Returns the optimal number of clusters, the final clusters labels for the optimal number of clusters and the silhouette scores.
+    """
     
     #ranges of clusters to test
     range_clusters = np.arange(start=8, stop=max_n_clusters, step=1)
@@ -145,6 +172,10 @@ def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=12):
 
 # Filling the dictionary of clusters
 def fill_clusters_dict(paragraphs, clusters_ids, final_clusters, recompute_embeddings=False, model=None):
+    """
+    Processes prev. data into a the dictionary of clusters with the clusters labels and text for each cluster and the indexes of the clustered paragraphs.
+    Returns the clusters dictionary and the paragraphs list.
+    """
     i = 0
 
     for para_dict, cluster in zip(paragraphs, final_clusters):

@@ -23,7 +23,10 @@ if torch.cuda.is_available():
 
 # extract tables from the list of pages of a pdf file
 def extract_tables_from_page(pdf_path, list_pages=None):
-    
+    """
+    Extract the tables from the pdf using the img2table library.
+    Returns a dictionary with the extracted tables.
+    """
     pdf = PDF(pdf_path,
                 pages= list_pages,
                 detect_rotation=False,
@@ -34,7 +37,11 @@ def extract_tables_from_page(pdf_path, list_pages=None):
 
 # convert pdf to images # expects the poppler path to be at the same level as the script
 def convert_pdf_to_image(pdf_path, output_dir="/output_pdf_to_img/", poppler_path=r"poppler-24.08.0\Library\bin"):
-    
+    """
+    Convert the pdf to images using the pdf2image library.
+    Saves the images in the output directory.
+    Returns a list of the paths to the images.
+    """
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     images_paths = []
@@ -53,10 +60,18 @@ def convert_pdf_to_image(pdf_path, output_dir="/output_pdf_to_img/", poppler_pat
 
 # encode image to base64 to be digestible by groq
 def encode_image(image_path):
+    """
+    Encode the image to base64 to be digestible by groq.
+    Returns the encoded image.
+    """
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 def format_multimodal_message_list(base_prompt, encoded_image):
+    """
+    Formats the multimodal message list with the prompt and the encoded image.
+    Returns the message list.
+    """
     messages = [
         {"role": "user",
         "content": [
@@ -72,7 +87,12 @@ def augment_multimodal_context(image_path,
                                 base_prompt, 
                                 groq_key, 
                                 model="llama-3.2-11b-vision-preview"):
-    
+    """
+    Uses the encode_image function to encode the image and 
+    then formats the multimodal message list with the format_multimodal_message_list function.
+    Then it queries the VL Model.
+    Returns the response.
+    """
     client = Groq(api_key=groq_key)
     encoded_image = encode_image(image_path)
     messages = format_multimodal_message_list(base_prompt, encoded_image)
@@ -84,7 +104,11 @@ def augment_multimodal_context(image_path,
 
 # format the table info into a dictionary
 def format_table_info(list_pages_with_tables, list_table_htmls, table_descriptions):
-    
+    """
+    Processes the table info into a dictionary from the dictionary of tables 
+    and the VL Model response into a dictionary with the page number, the table description, the table html and the augmented context.
+    Returns the list of processed tables dictionaries.
+    """
     format_string = """{}
     
 Tableau au format html:

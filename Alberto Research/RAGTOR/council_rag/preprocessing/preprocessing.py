@@ -139,7 +139,7 @@ def cluster_n(cluster_model, n_clusters, embeddings, scoring_function):
 
     return clusters, sil_sc
 
-def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=12):
+def get_optimal_n_clusters(squeezeded_embeddings, min_n_clusters, max_n_clusters=12):
     """
     Gets the optimal number of clusters for the embeddings based on the max silhouette score.
     The range of clusters to test is from 8 to max_n_clusters. Ideally it would be computed dinamycally based on the data.
@@ -147,7 +147,7 @@ def get_optimal_n_clusters(squeezeded_embeddings, max_n_clusters=12):
     """
     
     #ranges of clusters to test
-    range_clusters = np.arange(start=8, stop=max_n_clusters, step=1)
+    range_clusters = np.arange(start=min_n_clusters, stop=max_n_clusters, step=1)
 
     # Compute the silhouette scores for each number of clusters
     silhouette_scores = []

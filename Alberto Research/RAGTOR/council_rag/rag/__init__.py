@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 import faiss
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from council_rag.preprocessing import generate_groq_summary
+from ..data_transformations.text_transformations import generate_groq_summary
 
 from huggingface_hub import HfFolder, whoami
 

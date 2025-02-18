@@ -44,7 +44,7 @@ def convert_pdf_to_image(pdf_path, pdf_dir, output_dir="/output_pdf_to_img/", po
     """
     output_dir_path = pdf_dir + output_dir
     pdf_name = pdf_path.split("\\")[-1]
-    print(output_dir_path)
+    # print(output_dir_path)
     if not os.path.exists(output_dir_path):
         os.makedirs(output_dir_path)
     images_paths = []
@@ -52,7 +52,7 @@ def convert_pdf_to_image(pdf_path, pdf_dir, output_dir="/output_pdf_to_img/", po
     for i in range(len(images)):
         # Save pages as images in the pdf
         general_path = output_dir_path + pdf_name 
-        print(general_path)
+        # print(general_path)
         general_path = general_path.rstrip(".pdf")
         # print(general_path)
         image_path = general_path + '_page'+ str(i) +'.jpg'

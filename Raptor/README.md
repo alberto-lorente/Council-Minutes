@@ -21,6 +21,8 @@ Some comments on specific matters regarding the project:
    - Ideally the min number of clusters would be computed dynamically (since as the text length grows, the clusters will be bigger and we may run into LLM querying limits) but here we are setting them manually as an argument to our main preprocessing function. As a rule of thumb, 8 clusters works fine for documents of around 40-50 pages.
    - Given the size, volume and quality of the documents, a well as our access to compute, a in-depth evaluation is not possible and would probably not be worth it.
    - The Prompts used are stored in `french_prompts.json` and `prompts_preprocessing.json`.
+   - You may find remarques for the generation of summaries and the quality of the descriptions generated for tables.
+   - For an overview of the pipeline, you can check the Notebook 6. It says CUDA out of Memory but it is actually run.
 ## Raptor Pipeline Flow
 
 1. **Pre-processing**

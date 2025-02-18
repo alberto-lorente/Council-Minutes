@@ -36,19 +36,23 @@ def extract_tables_from_page(pdf_path, list_pages=None):
     return extracted_tables
 
 # convert pdf to images # expects the poppler path to be at the same level as the script
-def convert_pdf_to_image(pdf_path, output_dir="/output_pdf_to_img/", poppler_path=r"poppler-24.08.0\Library\bin"):
+def convert_pdf_to_image(pdf_path, pdf_dir, output_dir="/output_pdf_to_img/", poppler_path=r"poppler-24.08.0\Library\bin"):
     """
     Convert the pdf to images using the pdf2image library.
     Saves the images in the output directory.
     Returns a list of the paths to the images.
     """
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    output_dir_path = pdf_dir + output_dir
+    pdf_name = pdf_path.split("\\")[-1]
+    print(output_dir_path)
+    if not os.path.exists(output_dir_path):
+        os.makedirs(output_dir_path)
     images_paths = []
     images = convert_from_path(pdf_path, poppler_path=poppler_path) 
     for i in range(len(images)):
         # Save pages as images in the pdf
-        general_path = output_dir + pdf_path 
+        general_path = output_dir_path + pdf_name 
+        print(general_path)
         general_path = general_path.rstrip(".pdf")
         # print(general_path)
         image_path = general_path + '_page'+ str(i) +'.jpg'
@@ -57,6 +61,7 @@ def convert_pdf_to_image(pdf_path, output_dir="/output_pdf_to_img/", poppler_pat
         images_paths.append(image_path)
     
     return images_paths
+
 
 # encode image to base64 to be digestible by groq
 def encode_image(image_path):

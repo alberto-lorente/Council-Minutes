@@ -20,7 +20,7 @@ if torch.cuda.is_available():
     device = torch.device('cuda')
     
 
-def process_tables(pdf_path, base_prompt, groq_token):
+def process_tables(pdf_path, pdf_dir, base_prompt, groq_token):
     """
     Extract the tables from the pdf, convert the pages that contain tables into images and pass them to a VL Model.
     Returns a dictionary with the processed tables.
@@ -30,7 +30,7 @@ def process_tables(pdf_path, base_prompt, groq_token):
     list_pages_with_tables = list(extracted_tables_filter.keys())
     
     # converting the pdf pages into images
-    image_paths = convert_pdf_to_image(pdf_path)  
+    image_paths = convert_pdf_to_image(pdf_path, pdf_dir)  
     table_descriptions = [augment_multimodal_context(im_path, base_prompt, groq_token) for im_path in image_paths]
     
     # getting table htmls

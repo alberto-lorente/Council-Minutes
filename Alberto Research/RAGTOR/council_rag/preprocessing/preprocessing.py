@@ -108,10 +108,14 @@ def compute_norm_embeddings(model, sentence):
     The model is passed already initialized to avoid having to load it again and running into CUDA issues.
     Returns the embeddings.
     """
-    embeddings = model.encode(sentence)
+    embeddings = model.embed_documents([sentence]) # huf in langchain returns a list of shape num_docs[emb_dims]
     unload_cuda()
     
-    return embeddings
+    # print(embeddings[0])
+    # print(embeddings)
+    # print(type(embeddings))
+    
+    return embeddings[0] # we have to unsqueeze it
 
 def compute_paragraph_embeddings(paragraphs, model):
     """

@@ -7,6 +7,7 @@ import faiss
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from ..data_transformations.text_transformations import generate_groq_summary
 from ..preprocessing.preprocessing import unload_cuda
+from groq import Groq
 
 from huggingface_hub import HfFolder, whoami
 
@@ -50,8 +51,8 @@ def set_up_rag_index(embedding_model):
     Sets up a Faiss RAG index based on the dimensions of the embedding model.
     Returns the vector store, the index and the embedding dimensions.
     """
-    shape_emb = embedding_model.encode("Hello World!")
-    emd_dims =  shape_emb.shape[0]
+    shape_emb = embedding_model.embed_documents(["Hello World!"])
+    emd_dims =  len(shape_emb[0]) # huf in langchain returns a list of shape num_docs[emb_dims]
     index = faiss.IndexFlatL2(emd_dims)
     vector_store = FAISS(embedding_model, 
                     index, 
@@ -176,14 +177,106 @@ def populate_vector_store(vector_store, docs, model):
     all_embeddings = []
     for doc in docs:
         unload_cuda()
-        embed = model.encode(doc.page_content)
-        all_embeddings.append(embed)
+        embed = model.embed_documents([doc.page_content])
+        all_embeddings.append(embed[0])
         
     metadatas = [doc.metadata for doc in docs]
     page_contents = [doc.page_content for doc in docs]
     content_emb_tupe = tuple(zip(page_contents, all_embeddings))
-    vector_store = vector_store.add_embeddings(content_emb_tupe, metadatas)
+    vector_store.add_embeddings(content_emb_tupe, metadatas)
     
-    return vector_store, all_embeddings
-    
+    return vector_store, all_embeddings    
 
+def raptor_query_vector_store(vector_store, query):
+        """
+        Performs the RAPTOR query on the vector store.
+        Returns the list of relevant facts and a relevant tables.
+        """
+        results_query_level_one = vector_store.similarity_search(
+                                                                query,
+                                                                k=1,
+                                                                filter={"type": "summary"}, 
+                                                                )
+        unload_cuda()
+
+        cluster_level_one = results_query_level_one[0].metadata["cluster"]
+
+        # now we search only in the cluster retrieved in the first step
+        results_query_level_two = vector_store.similarity_search(
+                                                        query,
+                                                        k=5,
+                                                        filter={"cluster": cluster_level_one,
+                                                                "type": "cluster_chunk"}, 
+                                                        )
+        unload_cuda()
+        results_query_tables = vector_store.similarity_search(
+                                                        query,
+                                                        k=1,
+                                                        filter={"type": 'description_table'}, # {"$in": []} 
+                                                        )
+        unload_cuda()
+
+        relevant_facts = [sent_query_level_two.page_content for sent_query_level_two in results_query_level_two]
+        relevant_table = results_query_tables[0].page_content
+        unload_cuda()
+
+        return relevant_facts, relevant_table
+
+def augment_query_rag(query, relevant_facts, relevant_table):
+    """
+    Augments the original query with the relevant facts and the relevant table.
+    We assume that the original query does not have a format string.
+    Returns the augmented query.
+    """
+    aug_prompt="""\nVoici quelques faits pertinents pour vous aider à répondre et una description du qui peut s'avérer utile. 
+    Si la description du n'est pas utile, ignorez-le.\n"""
+    
+    augmented_data_string = aug_prompt + "\n".join(relevant_facts) + "\n" + relevant_table
+    
+    # formated_augmented_query = query.format(augmented_data_string) # the original query has to have a format string
+    formated_augmented_query = query + augmented_data_string       # the original query does not have a format string
+    
+    return formated_augmented_query
+
+
+def raptor_query_all_prompts(vector_store, prompts_query):
+    """
+    Uses the raptor_query_vector_store function to retrieve the relevant facts and the relevant table for each prompt in the prompts_query dictionary.
+    Returns a list of dictionaries with the prompt_id, the formated augmented query, the relevant facts and the relevant table.
+    """
+    list_aug_queries = []
+    for k, v in prompts_query.items():
+        relevant_facts, relevant_table = raptor_query_vector_store(vector_store, v)
+        formated_augmented_query = augment_query_rag(v, relevant_facts, relevant_table)
+        dict_query = {"prompt": k,
+                        "formated_augmented_query": formated_augmented_query,
+                        "facts": relevant_facts,
+                        "table": relevant_table}
+        list_aug_queries.append(dict_query)
+    return list_aug_queries
+
+def final_query(query, groq_key):
+    """
+    Performs the final query on the model.
+    Returns the response of the model.
+    """
+    client = Groq(api_key=groq_key)
+    
+    messages = [
+                {"role": "system",
+                "content":  "Vous êtes un assistant utile" },
+                {"role": "user",
+                "content":  query}
+                ]
+    
+    chat_completion = client.chat.completions.create(messages=messages, model="gemma2-9b-it")
+    return chat_completion.choices[0].message.content
+
+def return_final_responses(list_aug_queries, groq_key):
+    
+    for query_dict in list_aug_queries:
+        query = query_dict["formated_augmented_query"]
+        response = final_query(query, groq_key)
+        query_dict["final_response"] = response
+    
+    return list_aug_queries

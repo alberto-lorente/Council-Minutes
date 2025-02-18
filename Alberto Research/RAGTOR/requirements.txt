@@ -36,3 +36,4 @@ langchain-core
 langchain-text-splitters
 uuid4
 gc
+langchain-huggingface

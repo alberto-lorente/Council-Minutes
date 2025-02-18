@@ -20,7 +20,7 @@ To deal with longer context:
 
 3. **RAG Pipeline**
 Diagram of the RAG query flow:
-![Query flow](OVERVIEW QUERY.png)
+![OVERVIEW QUERY](https://github.com/user-attachments/assets/a559f7e0-62db-455f-859f-86b27a53eb10)
 
 
 ### Requirements
@@ -32,6 +32,7 @@ In order to run the code, you need to have the following files:
 
 Install the requirements:
 ```bash
-pip install -r requirements.txt
+pip install -r req![OVERVIEW QUERY](https://github.com/user-attachments/assets/e9c970b6-5b14-496b-991d-c201dcfd8a36)
+uirements.txt
 ```
 And check that you comply with the other requirements file. Note: your kernel will crash if CUDA is not available.

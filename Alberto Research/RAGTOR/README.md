@@ -22,6 +22,10 @@ To deal with longer context:
 Diagram of the RAG query flow:
 ![OVERVIEW QUERY](https://github.com/user-attachments/assets/a559f7e0-62db-455f-859f-86b27a53eb10)
 
+- At a first step, we query the cluster summaries.
+- Then we query those chunks which belonged to the cluster returned in the previous step as well as the tables.
+- This information is formated together for the augmented generation.
+
 
 ### Requirements
 

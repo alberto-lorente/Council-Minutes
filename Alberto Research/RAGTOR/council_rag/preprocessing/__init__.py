@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, AutoModel
 import numpy as np
 from .preprocessing import compute_paragraph_embeddings, split_markdown_to_paras, get_optimal_n_clusters, fill_clusters_dict
 from sentence_transformers import SentenceTransformer
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 device = "cpu"
 if torch.cuda.is_available():
@@ -22,7 +23,7 @@ def preprocess_markdown_text(markdown,
     paragraphs = split_markdown_to_paras(markdown, spacy_model, n_sents_per_para)
 
 
-    model = SentenceTransformer(model_id)
+    model = HuggingFaceEmbeddings(model_id) # if we do the sentence embedding the vector store will fail
     # Split the markdown into paragraphs
     paragraphs = compute_paragraph_embeddings(paragraphs, model)
     

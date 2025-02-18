@@ -6,6 +6,7 @@ from langchain_core.documents import Document
 import faiss
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from ..data_transformations.text_transformations import generate_groq_summary
+from ..preprocessing.preprocessing import unload_cuda
 
 from huggingface_hub import HfFolder, whoami
 
@@ -167,6 +168,22 @@ def shorten_summary_docs(all_docs, groq_token, model="gemma2-9b-it"):
     return all_docs
 
     
+def populate_vector_store(vector_store, docs, model):
+    """
+    Calculates embeddings for the docs and populates the vector store with the embeddings and the documents.
+    Returns the vector store and the list of embeddings.
+    """
+    all_embeddings = []
+    for doc in docs:
+        unload_cuda()
+        embed = model.encode(doc.page_content)
+        all_embeddings.append(embed)
+        
+    metadatas = [doc.metadata for doc in docs]
+    page_contents = [doc.page_content for doc in docs]
+    content_emb_tupe = tuple(zip(page_contents, all_embeddings))
+    vector_store = vector_store.add_embeddings(content_emb_tupe, metadatas)
     
+    return vector_store, all_embeddings
     
 

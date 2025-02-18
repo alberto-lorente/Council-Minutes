@@ -1,6 +1,15 @@
+## Repository Overview
 
+This part of the repository contains the code for the Raptor side of the project.
+The folder `council_rag` contains the modules we developed to perform our experiments and is documented.
 
-## Pipeline Flow
+The folder `Evaluation data` contains the pdfs and the script we used to evaluate the performance of the summary and table augmentation model as well as the evaluation data.
+
+`poppler` is required a required dependency to convert the pdfs to markdown. Do not delete it!
+
+The jupyter notebooks show the final steps we followed to develop the pipeline cleaned up and you should be able to run them.
+
+## Raptor Pipeline Flow
 
 1. **Pre-processing**
    - Reads markdown and PDF documents

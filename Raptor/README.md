@@ -49,6 +49,11 @@ Diagram of the RAG query flow:
 - Then we query those chunks which belonged to the cluster returned in the previous step as well as the tables.
 - This information is formated together for the augmented generation.
 
+## Current Configuration
+
+- Llama Parse for PDF to Markdown, im2table to detect tables for the VL Model.
+- Models: Gemma-2b embed, Gemma2-9b, Llama-3.2-11B-Vision.
+- 8 sentences per paragraph split with spacy's small French News Core Model. Minimum of 8 clusters, maximum of 12.
 
 ### Requirements
 

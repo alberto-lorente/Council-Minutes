@@ -12,7 +12,7 @@ nest_asyncio.apply()
 from llama_parse import LlamaParse
 
 parser = LlamaParse(
-    api_key="llx-XrrnoH7Vou2A7NoeIhrXU1Ih6WyDLo3GOKt3v8VuxzgvbxKr", 
+    api_key="", 
     result_type="markdown", 
     num_workers=4, 
     verbose=True,
@@ -45,9 +45,11 @@ def download_pdf (url, pdf_path):
 		return False
 
 def pf2mdpagebypage(input_pdf, output_folder, extract_text_function=pdf2md):
+    
     """
     Not currently used.
     """
+    
 	doc = fitz.open(input_pdf)
 	pages = []
 	for i, page in enumerate(doc):

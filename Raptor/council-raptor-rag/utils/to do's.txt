@@ -1,0 +1,4 @@
+FIRST:
+
+        finish normal encoding emb 
+        finish the file conversions
